@@ -1,0 +1,1 @@
+# aplikace_sofistikovane_cesky
