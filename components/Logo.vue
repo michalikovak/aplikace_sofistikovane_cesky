@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="images/Logo.png" alt="Logo Fox" />
+    <img src="./assets/Logo.png" alt="Fox logo" />
   </div>
 </template>
 

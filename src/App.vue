@@ -2,13 +2,13 @@
   <div id="app">
     <div>Funguj prosim</div>
     <button>ahoj</button>
-    <img src=assets/Logo.png alt="Fox logo" />
+    <img src="./assets/img/Logo.png" alt="Fox logo" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "App"
+  name: "App",
 };
 </script>
 
