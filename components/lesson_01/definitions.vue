@@ -153,7 +153,7 @@
     </tr>
     <br />
     <tr>
-      Cestování otevíralo prostor kulturnímu obohacování , ale i k sebeobrannému
+      Cestování otevíralo prostor kulturnímu obohacování, ale i k sebeobrannému
       izolacionismu a
       <strong>xenofobii</strong
       >.

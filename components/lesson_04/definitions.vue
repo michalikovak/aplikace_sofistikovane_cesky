@@ -42,7 +42,7 @@
     <tr>
       Měla dost jejích
       <strong>patetických</strong>
-      výkřiků . V každém obchodě volala : " Úchvatné ! Velkolepé ! Úžasné ! "
+      výkřiků. V každém obchodě volala: "Úchvatné! Velkolepé! Úžasné!"
     </tr>
     <br />
   </li>
