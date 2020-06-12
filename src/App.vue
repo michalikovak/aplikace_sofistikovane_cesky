@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div>Funguj prosim</div>
-    <button>ahoj</button>
     <!--<img src="./assets/img/Logo.png" alt="Fox logo" />
     <img :src="logo" alt="Fox logo" />-->
     <button />
