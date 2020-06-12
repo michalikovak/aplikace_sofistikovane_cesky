@@ -25,7 +25,7 @@
     <li>
       <tr>
         Já jí za její hrubé chování označím za původkyni fyzické xxx a tohle
-        oznámení bude podepřeno řadou výpovědí .
+        oznámení bude podepřeno řadou výpovědí.
       </tr>
     </li>
 

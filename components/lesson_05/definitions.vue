@@ -21,7 +21,7 @@
         pejorativní
       </tr>
       <tr>
-        <em>hanlivý, zhoršující význam, vyjadřující záporný vztah </em>
+        <em>hanlivý, zhoršující význam, vyjadřující záporný vztah</em>
       </tr>
       <br />
       <tr>
@@ -37,7 +37,7 @@
         obskurní
       </tr>
       <tr>
-        <em>mající špatnou pověst, mravně závadný, podezřelý, pochybný </em>
+        <em>mající špatnou pověst, mravně závadný, podezřelý, pochybný</em>
       </tr>
       <br />
       <tr>
@@ -53,7 +53,7 @@
         blazeovaný
       </tr>
       <tr>
-        <em>znuděný, netečný, přesycený požitky </em>
+        <em>znuděný, netečný, přesycený požitky</em>
       </tr>
       <br />
       <tr>
@@ -68,7 +68,7 @@
         filantropie
       </tr>
       <tr>
-        <em>lidumilnost, dobročinnost, pomoc sociálně slabým </em>
+        <em>lidumilnost, dobročinnost, pomoc sociálně slabým</em>
       </tr>
       <br />
       <tr>
@@ -84,7 +84,7 @@
         misogyn
       </tr>
       <tr>
-        <em>nepřítel žen </em>
+        <em>nepřítel žen</em>
       </tr>
       <br />
       <tr>
@@ -100,7 +100,7 @@
         ambivalentní
       </tr>
       <tr>
-        <em>mající současně dvojí platnost, dvojstranný, dvojsmyslný </em>
+        <em>mající současně dvojí platnost, dvojstranný, dvojsmyslný</em>
       </tr>
       <br />
       <tr>
@@ -135,7 +135,7 @@
         emancipace
       </tr>
       <tr>
-        <em>osvobození z podřízeného postavení, zrovnoprávnění </em>
+        <em>osvobození z podřízeného postavení, zrovnoprávnění</em>
       </tr>
       <br />
       <tr>
@@ -152,7 +152,7 @@
         melancholik
       </tr>
       <tr>
-        <em>citlivý, introvertní, zádumčivý člověk </em>
+        <em>citlivý, introvertní, zádumčivý člověk</em>
       </tr>
       <br />
       <tr>

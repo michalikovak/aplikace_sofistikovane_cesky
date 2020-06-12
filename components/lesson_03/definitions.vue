@@ -156,7 +156,7 @@
       <tr>
         Tato práce se zabývá problematikou vzniku a vývoje
         <strong>marginálních</strong>
-        oblastí na území České republiky
+        oblastí na území České republiky.
       </tr>
       <br />
     </li>
