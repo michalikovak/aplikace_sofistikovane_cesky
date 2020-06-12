@@ -67,7 +67,7 @@ export default {
 </script>
 
 <style>
-#app {
+* {
   background: linear-gradient(#ffffff, #ffd788);
   width: 100vh;
   height: 100vh;
