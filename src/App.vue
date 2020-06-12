@@ -2,7 +2,8 @@
   <div id="app">
     <div>Funguj prosim</div>
     <button>ahoj</button>
-    <!--<img src="./assets/img/Logo.png" alt="Fox logo" />-->
+    <!--<img src="./assets/img/Logo.png" alt="Fox logo" />
+    <img :src="logo" alt="Fox logo" />-->
     <button />
     <contextParagraph />
     <cPIntroduction />
@@ -37,8 +38,14 @@ import SignIn from "../components/SignIn.vue";
 import TestContextSentences from "../components/TestContextSentences.vue";
 import WelcomeFox from "../components/WelcomeFox.vue";
 import WelcomeText from "../components/WelcomeText.vue";
+/*import logo from "../assets/Logo.png";*/
 export default {
   name: "App",
+  /*data() {
+    return {
+      logo: Logo,
+    };
+  },*/
   components: {
     button: Button,
     contextParagraph: ContextParagraph,
@@ -64,12 +71,5 @@ export default {
   background: linear-gradient(#ffffff, #ffd788);
   width: 100vh;
   height: 100vh;
-}
-
-#app button {
-  background-color: #7e3b1c;
-  color: white;
-  border-radius: 6px;
-  border: 2px solid #7e3b1c;
 }
 </style>
