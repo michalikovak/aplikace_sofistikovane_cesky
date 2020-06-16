@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="logIn"></button>
+    <button id="Signin">Přihlásit se</button>
   </div>
 </template>
 
@@ -11,9 +11,11 @@ export default {
 </script>
 
 <style>
-.logIn {
-  background-color: #7e3b1c;
+#Signin {
+  width: 500px;
+  height: 30px;
+  background: #7e3b1c;
   color: white;
-  border-radius: 6px;
+  border: none;
 }
 </style>
