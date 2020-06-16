@@ -5,17 +5,19 @@
 </template>
 
 <script>
-import logo from "../assets/Logo.png";
-
+import logo from "../assets/img/Logo.png";
 export default {
-  name: "Logo",
   name: "App",
   data() {
     return {
-      logo: logo,
+      logo // 2. přidání názvu obrázku do dat komponenty
     };
-  },
+  }
 };
 </script>
 
-<style></style>
+<style>
+img {
+  width: 10vh;
+}
+</style>

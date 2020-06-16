@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    <div>Funguj prosim</div>
-    <button>ahoj</button>
-    <!--<img src="./assets/img/Logo.png" alt="Fox logo" />-->
-    <button />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <customButton />
     <contextParagraph />
     <cPIntroduction />
     <hamburger />
@@ -14,10 +15,11 @@
     <moreExamples />
     <navBar />
     <resultsText />
-    <signIn />
+    <input />
     <testContextSentences />
     <welcomeFox />
     <welcomeText />
+    <resultsFox />
   </div>
 </template>
 
@@ -33,14 +35,15 @@ import Logo from "../components/Logo.vue";
 import MoreExamples from "../components/MoreExamples.vue";
 import NavBar from "../components/NavBar.vue";
 import ResultsText from "../components/ResultsText.vue";
-import SignIn from "../components/SignIn.vue";
+import Input from "../components/Input.vue";
 import TestContextSentences from "../components/TestContextSentences.vue";
 import WelcomeFox from "../components/WelcomeFox.vue";
 import WelcomeText from "../components/WelcomeText.vue";
+import ResultsFox from "../components/ResultsFox.vue";
 export default {
   name: "App",
   components: {
-    button: Button,
+    customButton: Button,
     contextParagraph: ContextParagraph,
     cPIntroduction: CPIntroduction,
     hamburger: Hamburger,
@@ -51,25 +54,28 @@ export default {
     moreExamples: MoreExamples,
     navBar: NavBar,
     resultsText: ResultsText,
-    signIn: SignIn,
+    input: Input,
     testContextSentences: TestContextSentences,
     welcomeFox: WelcomeFox,
     welcomeText: WelcomeText,
-  },
+    resultsFox: ResultsFox
+  }
 };
 </script>
 
 <style>
 #app {
   background: linear-gradient(#ffffff, #ffd788);
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-#app button {
-  background-color: #7e3b1c;
-  color: white;
-  border-radius: 6px;
-  border: 2px solid #7e3b1c;
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
 }
 </style>
