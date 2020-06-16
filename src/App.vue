@@ -58,8 +58,8 @@ export default {
     testContextSentences: TestContextSentences,
     welcomeFox: WelcomeFox,
     welcomeText: WelcomeText,
-    resultsFox: ResultsFox
-  }
+    ResultsFox: ResultsFox,
+  },
 };
 </script>
 
@@ -74,6 +74,7 @@ export default {
 
 * {
   font-family: "Poppins", sans-serif;
+  color: #7e3b1c;
 }
 body {
   margin: 0;

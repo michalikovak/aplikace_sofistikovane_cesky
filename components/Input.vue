@@ -6,19 +6,25 @@
 
 <script>
 export default {
-  name: "App"
+  name: "App",
 };
 </script>
 
 <style>
 #form {
   display: flex;
-}
-input {
-  width: 60%;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  width: 37vh;
+  height: 4vh;
+  display: inline-block;
+}
+input {
+  text-align: center;
+  width: 35vh;
+  height: 2vh;
   margin: 10px;
-  padding: 0;
+  padding: 10px;
 }
 </style>
