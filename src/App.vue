@@ -76,9 +76,6 @@ export default {
   font-family: "Poppins", sans-serif;
 }
 body {
-  width: 100vh;
-  height: 100vh;
   margin: 0;
-  padding: 0;
 }
 </style>
