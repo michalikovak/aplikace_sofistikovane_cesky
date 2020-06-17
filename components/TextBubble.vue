@@ -16,4 +16,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#textBubble {
+  width: 50vh;
+}
+</style>

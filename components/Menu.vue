@@ -1,9 +1,9 @@
 <template>
   <div class="menu">
     <ul>
-      <li>Přihlásit se</li>
+      <li>Přihlášení</li>
       <li>Registrace</li>
-      <li>Chci vstoupit bez registrace</li>
+      <li></li>
     </ul>
   </div>
 </template>
@@ -14,4 +14,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+li {
+  list-style: none;
+  padding: 10px;
+}
+ul {
+  display: flex;
+}
+</style>

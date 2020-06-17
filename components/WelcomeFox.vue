@@ -10,9 +10,9 @@ export default {
   name: "App",
   data() {
     return {
-      welcomefox
+      welcomefox,
     };
-  }
+  },
 };
 </script>
 
@@ -61,6 +61,8 @@ export default {
     transform: rotateZ(8deg);
   }
 }*/
+
+#welcomeFox {
+  width: 30vh;
+}
 </style>
-
-

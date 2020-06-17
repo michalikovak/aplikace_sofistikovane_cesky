@@ -23,13 +23,13 @@
     <textBubble2 />
     <menu />-->
     <pGwelcome />
-    <pGlogIn />
+    <!--<pGlogIn />
     <pGsignIn />
     <pGlesson />
     <pGcontextParagraph />
     <pGmoreExamples />
     <pGtest />
-    <pGresults />
+    <pGresults />-->
   </div>
 </template>
 
@@ -52,13 +52,13 @@ import TextBubble from "../components/TextBubble.vue";
 import TextBubble2 from "../components/TextBubble2.vue";
 import Menu from "../components/Menu.vue";*/
 import PGwelcome from "../components/pages/PGwelcome.vue";
-import PGlogIn from "../components/pages/PGlogIn.vue";
+/*import PGlogIn from "../components/pages/PGlogIn.vue";
 import PGsignIn from "../components/pages/PGsignIn.vue";
 import PGlesson from "../components/pages/PGlesson.vue";
 import PGcontextParagraph from "../components/pages/PGcontextParagraph.vue";
 import PGmoreExamples from "../components/pages/PGmoreExamples.vue";
 import PGtest from "../components/pages/PGtest.vue";
-import PGresults from "../components/pages/PGresults.vue";
+import PGresults from "../components/pages/PGresults.vue";*/
 
 export default {
   name: "App",
@@ -83,19 +83,19 @@ export default {
     textBubble2: TextBubble2,
     menu: Menu,*/
     pGwelcome: PGwelcome,
-    pGlogIn: PGlogIn,
+    /*pGlogIn: PGlogIn,
     pGsignIn: PGsignIn,
     pGlesson: PGlesson,
     pGcontextParagraph: PGcontextParagraph,
     pGmoreExamples: PGmoreExamples,
     pGtest: PGtest,
-    pGresults: PGresults,
+    pGresults: PGresults,*/
   },
 };
 </script>
 
 <style>
-#app {
+html {
   background: linear-gradient(#ffffff, #ffd788);
   width: 100%;
   min-height: 100vh;
