@@ -1,16 +1,16 @@
 <template>
   <div>
-    <img :src="resultsFox" alt="ResultFox" />
+    <img id="textBubble2" :src="bubble2" alt="Text Bubble" />
   </div>
 </template>
 
 <script>
-import resultsFox from "../assets/img/resultsFox.png";
+import bubble2 from "../assets/img/bubble2.png";
 export default {
   name: "App",
   data() {
     return {
-      resultsFox,
+      textBubble2,
     };
   },
 };

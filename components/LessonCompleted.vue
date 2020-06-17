@@ -1,11 +1,18 @@
 <template>
-  <div></div>
+  <div class="border">
+    <p>Splněno</p>
+    <p>1/5</p>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "App",
+  name: "LessonCompleted",
 };
 </script>
 
-<style></style>
+<style>
+.border {
+  border-bottom: 3px solid #7e3b1c;
+}
+</style>

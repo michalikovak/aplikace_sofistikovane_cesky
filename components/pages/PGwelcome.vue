@@ -2,6 +2,10 @@
   <div>
     <logo />
     <welcomeFox />
+    <p>
+      Nepoužívej cizí termity, když je neznáš suterénně a nejsiv dobré
+      konvici.�Je zde veliké rizoto, že to skončí fiatem.
+    </p>
     <textBubble />
     <menu />
   </div>
