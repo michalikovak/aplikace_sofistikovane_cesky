@@ -1,10 +1,10 @@
 <template>
   <div>
-    <logo />
+    <Logo />
     <welcomeFox />
     <p>
-      Nepoužívej cizí termity, když je neznáš suterénně a nejsiv dobré
-      konvici.�Je zde veliké rizoto, že to skončí fiatem.
+      Nepoužívej cizí termity, když je neznáš suterénně a nejsi v dobré konvici.
+      Je zde veliké rizoto, že to skončí fiatem.
     </p>
     <textBubble />
     <Menu />
@@ -19,7 +19,7 @@ import Menu from "../Menu.vue";
 export default {
   name: "PGwelcome",
   components: {
-    logo: Logo,
+    Logo: Logo,
     welcomeFox: WelcomeFox,
     textBubble: TextBubble,
     Menu: Menu,

@@ -3,13 +3,13 @@
     <Logo />
     <Menu />
     <Input type="text" id="firstName" placeholder="Jméno" />
-    <I type="text" id="secondName" placeholder="Příjmení" />
-    <I type="text" id="nickName" placeholder="Přezdívka" />
+    <Input type="text" id="secondName" placeholder="Příjmení" />
+    <Input type="text" id="nickName" placeholder="Přezdívka" />
     <!--nejsme si jiste type = text-->
     <Input type="email" id="Email" placeholder="@" required />
-    <I type="password" id="Password" placeholder="Heslo" />
+    <Input type="password" id="Password" placeholder="Heslo" />
     <Input type="password" id="PasswordAgain" placeholder="Heslo" />
-    <B name="Registrace" />
+    <Button name="Registrace" />
   </div>
 </template>
 

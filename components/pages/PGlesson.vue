@@ -1,12 +1,12 @@
 <template>
   <div>
-    <logo />
+    <Logo />
     <lessonCompleted />
-    <button>Lekce 1</button>
-    <button>Lekce 2</button>
-    <button>Lekce 3</button>
-    <button>Lekce 4</button>
-    <button>Lekce 5</button>
+    <Button name="Lekce 1" />
+    <Button name="Lekce 2" />
+    <Button name="Lekce 3" />
+    <Button name="Lekce 4" />
+    <Button name="Lekce 5" />
     <welcomeFox />
   </div>
 </template>
@@ -19,9 +19,9 @@ import WelcomeFox from "../WelcomeFox.vue";
 export default {
   name: "PGlesson",
   components: {
-    logo: Logo,
+    Logo: Logo,
     lessonCompleted: LessonCompleted,
-    button: Button,
+    Button: Button,
     welcomeFox: WelcomeFox,
   },
 };

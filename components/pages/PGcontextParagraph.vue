@@ -1,12 +1,12 @@
 <template>
   <div>
-    <logo />
+    <Logo />
     <lessonCompleted />
     <resultsFox />
     <textBubble2 />
     <p>{{ lesson1.contextParagraph }}</p>
-    <button>Vysvětlení</button>
-    <button>Test</button>
+    <Button name="Vysvětlení" />
+    <Button name="Test" />
   </div>
 </template>
 
@@ -32,11 +32,11 @@ export default {
     };
   },
   components: {
-    logo: Logo,
+    Logo: Logo,
     lessonCompleted: LessonCompleted,
     resultsFox: ResultsFox,
     textBubble2: TextBubble2,
-    button: Button,
+    Button: Button,
   },
 };
 </script>

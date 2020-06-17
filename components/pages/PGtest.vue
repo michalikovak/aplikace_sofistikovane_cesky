@@ -1,28 +1,32 @@
 <template>
   <div>
-    <logo />
+    <Logo />
     <lessonCompleted />
-    <!--<p>{{lesson1.test[0].questionStart[options1].questionEnd}}</p>-->
-    <button>Výsledek</button>
+    <div v-for="test in lesson1test">
+      <p>{{ test.questionStart }}</p>
+      <p>{{ test.options1 }}</p>
+      <p>{{ test.questionEnd }}</p>
+    </div>
+    <Button name="Výsledek" />
   </div>
 </template>
 
 <script>
 import Logo from "../Logo.vue";
 import LessonCompleted from "../LessonCompleted.vue";
-/*import data from "../../src/data.js"*/
+import data from "../../src/data.js";
 import Button from "../Button.vue";
 export default {
   name: "PGtest",
-  /*data() {
+  data() {
     return {
-      lesson1: data[0].contextParagraph
+      lesson1test: data[0].test,
     };
-  },*/
+  },
   components: {
-    logo: Logo,
+    Logo: Logo,
     lessonCompleted: LessonCompleted,
-    button: Button,
+    Button: Button,
   },
 };
 </script>

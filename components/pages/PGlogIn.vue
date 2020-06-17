@@ -1,10 +1,10 @@
 <template>
   <div id="kontejnerLogIn">
-    <logo />
-    <input type="text" id="usernameLI" placeholder="Uživatelské jméno" />
-    <input type="password" id="passwordLI" placeholder="Heslo" />
-    <button>Přihlásit se</button>
-    <menu />
+    <Logo />
+    <Input type="text" id="usernameLI" placeholder="Uživatelské jméno" />
+    <Input type="password" id="passwordLI" placeholder="Heslo" />
+    <Button name="Přihlásit se" />
+    <Menu />
   </div>
 </template>
 
@@ -16,10 +16,10 @@ import Button from "../Button.vue";
 export default {
   name: "LogIn",
   components: {
-    input: Input,
-    logo: Logo,
-    menu: Menu,
-    button: Button,
+    Input: Input,
+    Logo: Logo,
+    Menu: Menu,
+    Button: Button,
   },
 };
 </script>

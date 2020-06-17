@@ -1,13 +1,13 @@
 <template>
   <div>
-    <logo />
+    <Logo />
     <lessonCompleted />
     <div v-for="word in lesson1words">
       <p>{{ word.word }}</p>
       <p>{{ word.meaning }}</p>
       <p>{{ word.context }}</p>
     </div>
-    <button>Test</button>
+    <Button name="Test" />
   </div>
 </template>
 
@@ -25,9 +25,9 @@ export default {
     };
   },
   components: {
-    logo: Logo,
+    Logo: Logo,
     lessonCompleted: LessonCompleted,
-    button: Button,
+    Button: Button,
   },
 };
 </script>

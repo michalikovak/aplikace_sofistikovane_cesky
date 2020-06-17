@@ -1,11 +1,11 @@
 <template>
   <div>
-    <logo />
+    <Logo />
     <lessonCompleted />
     <resultsFox />
-    <p>Výborně!�Mám radost z tvé sofistivkované češtiny!</p>
+    <p>Výborně! Mám radost z tvé sofistivkované češtiny!</p>
     <textBubble />
-    <button>Menu</button>
+    <Button name="Menu" />
   </div>
 </template>
 
@@ -18,11 +18,11 @@ import Button from "../Button.vue";
 export default {
   name: "PGresults",
   components: {
-    logo: Logo,
+    Logo: Logo,
     lessonCompleted: LessonCompleted,
     resultsFox: ResultsFox,
     textBubble: TextBubble,
-    button: Button,
+    Button: Button,
   },
 };
 </script>
