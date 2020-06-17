@@ -4,6 +4,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
     <!--<customButton />
     <contextParagraph />
     <cPIntroduction />
@@ -21,7 +22,8 @@
     <resultsFox />
     <textBubble />
     <textBubble2 />
-    <menu />-->
+    <menu />
+    <headline />-->
     <pGwelcome />
     <!--<pGlogIn />
     <pGsignIn />
@@ -50,7 +52,8 @@ import WelcomeText from "../components/WelcomeText.vue";
 import ResultsFox from "../components/ResultsFox.vue";
 import TextBubble from "../components/TextBubble.vue";
 import TextBubble2 from "../components/TextBubble2.vue";
-import Menu from "../components/Menu.vue";*/
+import Menu from "../components/Menu.vue";
+import Headline from "../components/Headline.vue";*/
 import PGwelcome from "../components/pages/PGwelcome.vue";
 /*import PGlogIn from "../components/pages/PGlogIn.vue";
 import PGsignIn from "../components/pages/PGsignIn.vue";
@@ -81,7 +84,8 @@ export default {
     resultsFox: ResultsFox,
     textBubble: TextBubble,
     textBubble2: TextBubble2,
-    menu: Menu,*/
+    menu: Menu,
+    headline: Headline,*/
     pGwelcome: PGwelcome,
     /*pGlogIn: PGlogIn,
     pGsignIn: PGsignIn,

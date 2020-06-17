@@ -1,7 +1,7 @@
 <template>
   <div class="containerPGwelcome">
     <Logo class="logo" />
-    <h1>Sofistikovaně česky</h1>
+    <headline class="headline" />
     <p>
       Nepoužívej cizí termity,<br />
       když je neznáš suterénně<br />
@@ -22,6 +22,7 @@ import Logo from "../Logo.vue";
 import WelcomeFox from "../WelcomeFox.vue";
 import TextBubble from "../TextBubble.vue";
 import Menu from "../Menu.vue";
+import Headline from "../Headline.vue";
 export default {
   name: "PGwelcome",
   components: {
@@ -29,6 +30,7 @@ export default {
     welcomeFox: WelcomeFox,
     textBubble: TextBubble,
     Menu: Menu,
+    headline: Headline,
   },
 };
 </script>
@@ -44,12 +46,11 @@ export default {
     left: 4vh;
   }
 
-  h1 {
+  .headline {
     position: absolute;
-    top: 12vh;
+    top: 16vh;
     left: 4vh;
   }
-
   .welcomeFox {
     position: absolute;
     top: 55vh;
@@ -58,10 +59,11 @@ export default {
 
   p {
     font-size: 1.3rem;
-    text-align: justify;
+    max-width: 270px;
+    text-align: center;
     position: absolute;
     top: 31vh;
-    left: 10.5vh;
+    left: 9vh;
     z-index: 1;
   }
 
@@ -72,7 +74,7 @@ export default {
   }
   .welcomemenu {
     position: absolute;
-    left: 12vh;
+    left: 15vh;
     top: 3vh;
   }
 }
