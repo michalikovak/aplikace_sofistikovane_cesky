@@ -20,15 +20,16 @@
     <welcomeFox />
     <welcomeText />
     <resultsFox />
-    <textBubble />-->
-    <pGlogIn />
+    <textBubble />
+    <menu />
+    <pGlogIn />-->
     <pGcontextParagraph />
     <pGlesson />
     <pGmoreExamples />
     <pGresults />
     <pGsignIn />
     <pGtest />
-    <pGwelcome />
+    <!--<pGwelcome />-->
   </div>
 </template>
 
@@ -48,15 +49,16 @@ import TestContextSentences from "../components/TestContextSentences.vue";
 import WelcomeFox from "../components/WelcomeFox.vue";
 import WelcomeText from "../components/WelcomeText.vue";
 import ResultsFox from "../components/ResultsFox.vue";
-import TextBubble from "../components/TextBubble.vue";*/
-import PGlogIn from "../components/pages/PGlogIn.vue";
+import TextBubble from "../components/TextBubble.vue";
+import Menu from "../components/Menu.vue";
+import PGlogIn from "../components/pages/PGlogIn.vue";*/
 import PGcontextParagraph from "../components/pages/PGcontextParagraph.vue";
 import PGlesson from "../components/pages/PGlesson.vue";
 import PGmoreExamples from "../components/pages/PGmoreExamples.vue";
 import PGresults from "../components/pages/PGresults.vue";
 import PGsignIn from "../components/pages/PGsignIn.vue";
 import PGtest from "../components/pages/PGtest.vue";
-import PGwelcome from "../components/pages/PGwelcome.vue";
+/*import PGwelcome from "../components/pages/PGwelcome.vue";*/
 
 export default {
   name: "App",
@@ -77,15 +79,16 @@ export default {
     welcomeFox: WelcomeFox,
     welcomeText: WelcomeText,
     resultsFox: ResultsFox,
-    textBubble: TextBubble,*/
-    pGlogIn: PGlogIn,
+    textBubble: TextBubble,
+    menu: Menu,
+    pGlogIn: PGlogIn,*/
     pGcontextParagraph: PGcontextParagraph,
     pGlesson: PGlesson,
     pGmoreExamples: PGmoreExamples,
     pGresults: PGresults,
     pGsignIn: PGsignIn,
     pGtest: PGtest,
-    pGwelcome: PGwelcome,
+    /*pGwelcome: PGwelcome,*/
   },
 };
 </script>

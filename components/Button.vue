@@ -11,12 +11,15 @@ export default {
 </script>
 
 <style>
-#Signin {
-  width: 20vh;
-  height: 30px;
+button {
+  width: 15vh;
+  height: 35px;
   background: #7e3b1c;
   color: white;
-  border: none;
+  border-radius: 12px;
+  border: 1px solid #7e3b1c;
+  margin: 20px;
+  outline: none;
 }
 .signIn {
   width: 25vh;
