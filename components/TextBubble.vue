@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img id="textBubble" :src="welcomefox" alt="Text Bubble" />
+    <img id="textBubble" :src="bubble" alt="Text Bubble" />
   </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
   name: "TextBubble",
   data() {
     return {
-      textBubble,
+      bubble,
     };
   },
 };

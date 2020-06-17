@@ -1,12 +1,13 @@
 <template>
   <div class="signIn">
-    <button id="Signin">Přihlásit se</button>
+    <button id="Signin">{{ name }}</button>
   </div>
 </template>
 
 <script>
 export default {
   name: "Button",
+  props: ["name"],
 };
 </script>
 

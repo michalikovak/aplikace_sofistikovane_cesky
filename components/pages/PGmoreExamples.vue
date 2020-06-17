@@ -2,24 +2,32 @@
   <div>
     <logo />
     <lessonCompleted />
-    <!--<p>{{lesson1.contextParagraph}}</p>-->
+    <div v-for="word in lesson1words">
+      <p>{{ word.word }}</p>
+      <p>{{ word.meaning }}</p>
+      <p>{{ word.context }}</p>
+    </div>
+    <button>Test</button>
   </div>
 </template>
 
 <script>
 import Logo from "../Logo.vue";
 import LessonCompleted from "../LessonCompleted.vue";
-/*import data from "../../src/data.js"*/
+import data from "../../src/data.js";
+import Button from "../Button.vue";
+
 export default {
   name: "PGmoreExamples",
-  /*data() {
+  data() {
     return {
-      lesson1: data[0].contextParagraph
+      lesson1words: data[0].words,
     };
-  }*/
+  },
   components: {
     logo: Logo,
     lessonCompleted: LessonCompleted,
+    button: Button,
   },
 };
 </script>

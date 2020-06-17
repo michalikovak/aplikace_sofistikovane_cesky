@@ -7,7 +7,7 @@
       konvici.�Je zde veliké rizoto, že to skončí fiatem.
     </p>
     <textBubble />
-    <menu />
+    <Menu />
   </div>
 </template>
 
@@ -22,7 +22,7 @@ export default {
     logo: Logo,
     welcomeFox: WelcomeFox,
     textBubble: TextBubble,
-    menu: Menu,
+    Menu: Menu,
   },
 };
 </script>

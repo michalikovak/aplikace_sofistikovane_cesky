@@ -1,15 +1,15 @@
 <template>
   <div>
-    <logo />
-    <menu />
-    <input type="text" id="firstName" placeholder="Jméno" />
-    <input type="text" id="secondName" placeholder="Příjmení" />
-    <input type="text" id="nickName" placeholder="Přezdívka" />
+    <Logo />
+    <Menu />
+    <Input type="text" id="firstName" placeholder="Jméno" />
+    <I type="text" id="secondName" placeholder="Příjmení" />
+    <I type="text" id="nickName" placeholder="Přezdívka" />
     <!--nejsme si jiste type = text-->
-    <input type="email" id="Email" placeholder="@" required />
-    <input type="password" id="Password" placeholder="Heslo" />
-    <input type="password" id="PasswordAgain" placeholder="Heslo" />
-    <button>Registrace</button>
+    <Input type="email" id="Email" placeholder="@" required />
+    <I type="password" id="Password" placeholder="Heslo" />
+    <Input type="password" id="PasswordAgain" placeholder="Heslo" />
+    <B name="Registrace" />
   </div>
 </template>
 
@@ -21,10 +21,10 @@ import Button from "../Button.vue";
 export default {
   name: "PGsignIn",
   components: {
-    logo: Logo,
-    menu: Menu,
-    input: Input,
-    button: Button,
+    Logo: Logo,
+    Menu: Menu,
+    Input: Input,
+    Button: Button,
   },
 };
 </script>

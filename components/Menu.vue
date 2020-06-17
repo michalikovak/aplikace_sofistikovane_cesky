@@ -3,6 +3,7 @@
     <ul>
       <li>Přihlásit se</li>
       <li>Registrace</li>
+      <li>Chci vstoupit bez registrace</li>
     </ul>
   </div>
 </template>

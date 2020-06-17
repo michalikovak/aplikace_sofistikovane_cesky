@@ -1,12 +1,18 @@
 <template>
   <div id="form">
-    <input type="text" />
+    <input
+      :type="type"
+      :id="id"
+      :placeholder="placeholder"
+      :required="required"
+    />
   </div>
 </template>
 
 <script>
 export default {
   name: "Input",
+  props: ["type", "id", "placeholder", "required"],
 };
 </script>
 
