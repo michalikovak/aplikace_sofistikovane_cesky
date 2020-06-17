@@ -4,7 +4,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <customButton />
+    <!--<customButton />
     <contextParagraph />
     <cPIntroduction />
     <hamburger />
@@ -20,17 +20,25 @@
     <welcomeFox />
     <welcomeText />
     <resultsFox />
+    <textBubble />-->
+    <pGlogIn />
+    <pGcontextParagraph />
+    <pGlesson />
+    <pGmoreExamples />
+    <pGresults />
+    <pGsignIn />
+    <pGtest />
+    <pGwelcome />
   </div>
 </template>
 
 <script>
-import Button from "../components/Button.vue";
+/*import Button from "../components/Button.vue";
 import ContextParagraph from "../components/ContextParagraph.vue";
 import CPIntroduction from "../components/CPIntroduction.vue";
 import Hamburger from "../components/Hamburger.vue";
 import LessonCompleted from "../components/LessonCompleted.vue";
 import LessonFox from "../components/LessonFox.vue";
-import LogIn from "../components/LogIn.vue";
 import Logo from "../components/Logo.vue";
 import MoreExamples from "../components/MoreExamples.vue";
 import NavBar from "../components/NavBar.vue";
@@ -40,10 +48,20 @@ import TestContextSentences from "../components/TestContextSentences.vue";
 import WelcomeFox from "../components/WelcomeFox.vue";
 import WelcomeText from "../components/WelcomeText.vue";
 import ResultsFox from "../components/ResultsFox.vue";
+import TextBubble from "../components/TextBubble.vue";*/
+import PGlogIn from "../components/pages/PGlogIn.vue";
+import PGcontextParagraph from "../components/pages/PGcontextParagraph.vue";
+import PGlesson from "../components/pages/PGlesson.vue";
+import PGmoreExamples from "../components/pages/PGmoreExamples.vue";
+import PGresults from "../components/pages/PGresults.vue";
+import PGsignIn from "../components/pages/PGsignIn.vue";
+import PGtest from "../components/pages/PGtest.vue";
+import PGwelcome from "../components/pages/PGwelcome.vue";
+
 export default {
   name: "App",
   components: {
-    customButton: Button,
+    /*customButton: Button,
     contextParagraph: ContextParagraph,
     cPIntroduction: CPIntroduction,
     hamburger: Hamburger,
@@ -58,7 +76,16 @@ export default {
     testContextSentences: TestContextSentences,
     welcomeFox: WelcomeFox,
     welcomeText: WelcomeText,
-    ResultsFox: ResultsFox,
+    resultsFox: ResultsFox,
+    textBubble: TextBubble,*/
+    pGlogIn: PGlogIn,
+    pGcontextParagraph: PGcontextParagraph,
+    pGlesson: PGlesson,
+    pGmoreExamples: PGmoreExamples,
+    pGresults: PGresults,
+    pGsignIn: PGsignIn,
+    pGtest: PGtest,
+    pGwelcome: PGwelcome,
   },
 };
 </script>

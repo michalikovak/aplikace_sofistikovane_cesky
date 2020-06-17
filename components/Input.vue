@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: "Input",
 };
 </script>
 
@@ -26,5 +26,11 @@ input {
   height: 2vh;
   margin: 10px;
   padding: 10px;
+  border: 3px solid #7e3b1c;
+}
+
+input:focus {
+  outline: none;
+  border-color: #e26d5c;
 }
 </style>

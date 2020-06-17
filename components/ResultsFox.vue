@@ -10,9 +10,9 @@ export default {
   name: "App",
   data() {
     return {
-      resultsFox // 2. přidání názvu obrázku do dat komponenty
+      resultsFox,
     };
-  }
+  },
 };
 </script>
 
