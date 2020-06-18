@@ -92,11 +92,6 @@ export default [
         options1: ["asketický", "sofistikovany", "cynik", "demagogický", "polemika", "exaktní", "segregace", "empatie", "agilní", "xenofobie"],
       },
       {
-        questionStart: "",
-        questionEnd: "",
-        options1: ["asketický", "sofistikovany", "cynik", "demagogický", "polemika", "exaktní", "segregace", "empatie", "agilní", "xenofobie"],
-      },
-      {
         questionStart: "Když má člověk hodně",
         questionEnd: ", potom občas víc bolí, když vidí utrpení druhého, než když se trápí sám.",
         options1: ["asketický", "sofistikovany", "cynik", "demagogický", "polemika", "exaktní", "segregace", "empatie", "agilní", "xenofobie"],

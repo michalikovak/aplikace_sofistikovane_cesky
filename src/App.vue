@@ -28,10 +28,10 @@
     <pGlogIn />
     <pGsignIn /
     <pGlesson />>
-    <pGcontextParagraph />-->
-    <pGmoreExamples />
-    <!--<pGtest />
-    <pGresults />-->
+    <pGcontextParagraph />
+    <pGmoreExamples />-->
+    <pGtest />
+    <!--<pGresults />-->
   </div>
 </template>
 
@@ -58,10 +58,10 @@ import PGwelcome from "../components/pages/PGwelcome.vue";
 import PGlogIn from "../components/pages/PGlogIn.vue";
 import PGsignIn from "../components/pages/PGsignIn.vue";
 import PGlesson from "../components/pages/PGlesson.vue";
-import PGcontextParagraph from "../components/pages/PGcontextParagraph.vue";*/
-import PGmoreExamples from "../components/pages/PGmoreExamples.vue";
-/*import PGtest from "../components/pages/PGtest.vue";
-import PGresults from "../components/pages/PGresults.vue";*/
+import PGcontextParagraph from "../components/pages/PGcontextParagraph.vue";
+import PGmoreExamples from "../components/pages/PGmoreExamples.vue";*/
+import PGtest from "../components/pages/PGtest.vue";
+/*import PGresults from "../components/pages/PGresults.vue";*/
 
 export default {
   name: "App",
@@ -90,10 +90,10 @@ export default {
     pGlogIn: PGlogIn,
     pGsignIn: PGsignIn,
     pGlesson: PGlesson,
-    pGcontextParagraph: PGcontextParagraph,*/
-    pGmoreExamples: PGmoreExamples,
-    /*pGtest: PGtest,
-    pGresults: PGresults,*/
+    pGcontextParagraph: PGcontextParagraph,
+    pGmoreExamples: PGmoreExamples,*/
+    pGtest: PGtest,
+    /*pGresults: PGresults,*/
   },
 };
 </script>

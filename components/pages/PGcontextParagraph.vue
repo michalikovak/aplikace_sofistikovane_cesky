@@ -65,8 +65,8 @@ export default {
     left: 4vh;
   }
   .lessoncompleted {
-    position: absolute;
-    left: 15vh;
+    position: relative;
+    left: 6vh;
     top: 3.5vh;
   }
   .resultsFox {

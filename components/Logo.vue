@@ -7,7 +7,7 @@
 <script>
 import logo from "../assets/img/Logo.png";
 export default {
-  name: "App",
+  name: "Logo",
   data() {
     return {
       logo,
