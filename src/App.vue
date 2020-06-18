@@ -23,10 +23,10 @@
     <textBubble />
     <textBubble2 />
     <menu />
-    <headline />-->
-    <pGwelcome />
-    <!--<pGlogIn />
-    <pGsignIn />
+    <headline />
+    <pGwelcome />-->
+    <pGlogIn />
+    <!--<pGsignIn />
     <pGlesson />
     <pGcontextParagraph />
     <pGmoreExamples />
@@ -53,10 +53,10 @@ import ResultsFox from "../components/ResultsFox.vue";
 import TextBubble from "../components/TextBubble.vue";
 import TextBubble2 from "../components/TextBubble2.vue";
 import Menu from "../components/Menu.vue";
-import Headline from "../components/Headline.vue";*/
-import PGwelcome from "../components/pages/PGwelcome.vue";
-/*import PGlogIn from "../components/pages/PGlogIn.vue";
-import PGsignIn from "../components/pages/PGsignIn.vue";
+import Headline from "../components/Headline.vue";
+import PGwelcome from "../components/pages/PGwelcome.vue";*/
+import PGlogIn from "../components/pages/PGlogIn.vue";
+/*import PGsignIn from "../components/pages/PGsignIn.vue";
 import PGlesson from "../components/pages/PGlesson.vue";
 import PGcontextParagraph from "../components/pages/PGcontextParagraph.vue";
 import PGmoreExamples from "../components/pages/PGmoreExamples.vue";
@@ -85,10 +85,10 @@ export default {
     textBubble: TextBubble,
     textBubble2: TextBubble2,
     menu: Menu,
-    headline: Headline,*/
-    pGwelcome: PGwelcome,
-    /*pGlogIn: PGlogIn,
-    pGsignIn: PGsignIn,
+    headline: Headline,
+    pGwelcome: PGwelcome,*/
+    pGlogIn: PGlogIn,
+    /*pGsignIn: PGsignIn,
     pGlesson: PGlesson,
     pGcontextParagraph: PGcontextParagraph,
     pGmoreExamples: PGmoreExamples,

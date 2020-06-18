@@ -77,5 +77,8 @@ export default {
     left: 15vh;
     top: 3vh;
   }
+  .welcomemenu :hover {
+    color: #e26d5c;
+  }
 }
 </style>

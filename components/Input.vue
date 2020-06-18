@@ -19,19 +19,16 @@ export default {
 <style>
 #form {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  width: 37vh;
+  width: 100%;
   height: 4vh;
-  display: inline-block;
 }
 input {
   text-align: center;
-  width: 35vh;
-  height: 2vh;
+  width: 40vh;
+  height: 6vh;
   margin: 10px;
-  padding: 10px;
+  padding: 0px;
   border: 3px solid #7e3b1c;
 }
 

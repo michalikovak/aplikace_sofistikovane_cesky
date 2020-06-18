@@ -25,5 +25,8 @@ button {
 .signIn {
   width: 25vh;
   height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
