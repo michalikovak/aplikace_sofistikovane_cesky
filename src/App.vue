@@ -21,7 +21,7 @@
     <welcomeText />
     <resultsFox />
     <textBubble />
-    <textBubble2 />
+    <textBubble3 />
     <menu />
     <headline />
     <pGwelcome />
@@ -51,7 +51,7 @@ import WelcomeFox from "../components/WelcomeFox.vue";
 import WelcomeText from "../components/WelcomeText.vue";
 import ResultsFox from "../components/ResultsFox.vue";
 import TextBubble from "../components/TextBubble.vue";
-import TextBubble2 from "../components/TextBubble2.vue";
+import TextBubble3 from "../components/TextBubble3.vue";
 import Menu from "../components/Menu.vue";
 import Headline from "../components/Headline.vue";
 import PGwelcome from "../components/pages/PGwelcome.vue";
@@ -83,7 +83,7 @@ export default {
     welcomeText: WelcomeText,
     resultsFox: ResultsFox,
     textBubble: TextBubble,
-    textBubble2: TextBubble2,
+    textBubble3: TextBubble3,
     menu: Menu,
     headline: Headline,
     pGwelcome: PGwelcome,
@@ -102,7 +102,7 @@ export default {
 html {
   background: linear-gradient(#ffffff, #ffd788);
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
 }

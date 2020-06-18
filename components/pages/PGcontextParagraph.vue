@@ -3,8 +3,15 @@
     <Logo class="logo" />
     <lessonCompleted class="lessoncompleted" />
     <resultsFox class="resultsFox" />
-    <textBubble2 class="textBubble2" />
-    <p class="paragraph">{{ lesson1.contextParagraph }}</p>
+    <p class="CPtext">
+      Přečti si článek, pokud budeš rozumět rozumnět všem tučně zvýrazněným
+      slovům, přejdi na test. Potřebuješ-li nějaké výrazy vysvětlit, přejdi na
+      vysvětlení.
+    </p>
+    <textBubble3 class="textBubble3" />
+    <p class="paragraph" v-html="lesson1.contextParagraph">
+      <!--{{ lesson1.contextParagraph }}-->>
+    </p>
     <div class="buttonsCP">
       <Button class="meaning" name="Vysvětlení" />
       <Button class="test" name="Test" />
@@ -16,7 +23,7 @@
 import Logo from "../Logo.vue";
 import LessonCompleted from "../LessonCompleted.vue";
 import ResultsFox from "../ResultsFox.vue";
-import TextBubble2 from "../TextBubble2.vue";
+import TextBubble3 from "../TextBubble3.vue";
 import data from "../../src/data.js";
 import Button from "../Button.vue";
 
@@ -37,7 +44,7 @@ export default {
     Logo: Logo,
     lessonCompleted: LessonCompleted,
     resultsFox: ResultsFox,
-    textBubble2: TextBubble2,
+    textBubble3: TextBubble3,
     Button: Button,
   },
 };
@@ -64,22 +71,37 @@ export default {
   }
   .resultsFox {
     position: absolute;
-    left: 0.75vh;
-    top: 9vh;
+    top: 1vh;
+    left: 1.5vh;
+
+    z-index: 1;
   }
-  .textBubble2 {
+  .textBubble3 {
     position: absolute;
-    left: 17vh;
-    top: 6vh;
+    left: 20vh;
+    top: 0;
   }
   .paragraph {
-  }
-  .buttonsCP {
-  }
-  .meaning {
+    position: absolute;
+    top: 70vh;
+    max-width: 48vh;
   }
 
+  .CPtext {
+    font-size: 1rem;
+    position: absolute;
+    left: 27vh;
+    top: 25vh;
+    z-index: 1;
+  }
+  .buttonsCP {
+    position: absolute;
+    top: 165vh;
+    display: flex;
+  }
+  .meaning,
   .test {
+    padding: 0;
   }
 }
 </style>
