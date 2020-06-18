@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <Logo />
-    <lessonCompleted />
-    <div v-for="word in lesson1words">
-      <p>{{ word.word }}</p>
-      <p>{{ word.meaning }}</p>
-      <p>{{ word.context }}</p>
+  <div id="kontejnerME">
+    <Logo class="logo" />
+    <lessonCompleted class="lessonCompleted" />
+    <div class="divparagraph" v-for="word in lesson1words">
+      <p class="words" v-html="word.word"><!--{{ word.word }}--></p>
+      <p class="meaning" v-html="word.meaning"><!--{{ word.meaning }}--></p>
+      <p class="context" v-html="word.context"><!--{{ word.context }}--></p>
     </div>
-    <Button name="Test" />
+    <Button class="test" name="Test" />
   </div>
 </template>
 
@@ -32,4 +32,41 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+@media screen and (max-width: 400px) {
+  #kontejnerME {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    position: absolute;
+    top: 4vh;
+    left: 4vh;
+  }
+  .lessonCompleted {
+    position: relative;
+    left: 6vh;
+    top: 3.5vh;
+  }
+  .divparagraph {
+    width: 47vh;
+    margin-top: 20px;
+  }
+  .words {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #e26d5c;
+  }
+  .meaning {
+    font-weight: 400;
+  }
+  .context {
+  }
+
+  .test {
+  }
+}
+</style>

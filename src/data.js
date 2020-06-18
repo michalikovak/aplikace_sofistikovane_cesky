@@ -6,52 +6,52 @@ export default [
     words: [
       {
         word: "asketický",
-        meaning: "odříkavý, zdrženlivý, na sebe přísný",
+        meaning: "<strong>odříkavý, zdrženlivý, na sebe přísný</strong>",
         context: "Mniši vedou asketický způsob života.",
       },
       {
         word: "sofistikovaný",
-        meaning: "promyšlený, propracovaný, využívající složitých metod",
+        meaning: "<strong>promyšlený, propracovaný, využívající složitých metod</strong>",
         context: "Vyvíjel k ochraně informací velice sofistikovaný systém míchání dat.",
       },
       {
         word: "cynik",
-        meaning: "necitelný, otrlý, bezohledný, chladně vypočítavý člověk",
+        meaning: "<strong>necitelný, otrlý, bezohledný, chladně vypočítavý člověk</strong>",
         context: "Nechci být cynikem, ale pandemie, ačkoli na ni zemřelo mnoho lidí, pomohla ke zlepšení ovzduší.",
       },
       {
         word: "demagogický",
-        meaning: "zavádějící, klamný",
+        meaning: "<strong>zavádějící, klamný</strong>",
         context: "Zvěsti o snížení hospodářkého obratu, byly evidentně demagogické výmysly cizích vlád.",
       },
       {
         word: "polemika",
-        meaning: "ostrý názorový spor, diskuze",
+        meaning: "<strong>ostrý názorový spor, diskuze</strong>",
         context: "Jak říká Aristoteles v polemice s Platónem…",
       },
       {
         word: "exaktní",
-        meaning: "založený na přesnosti, přesný, dokonalý, přísně vědecký",
+        meaning: "<strong>založený na přesnosti, přesný, dokonalý, přísně vědecký</strong>",
         context: "Opozice předložila nezpochybnitelný, exaktní důkaz.",
       },
       {
         word: "segregace",
-        meaning: "oddělování, rozdělování, vylučování",
+        meaning: "<strong>oddělování, rozdělování, vylučování</strong>",
         context: "Ministr předložil návrh, který má přispět k eliminaci rasové segregace na školách.",
       },
       {
         word: "empatie",
-        meaning: "schopnost vcítit se do pocitů, jednání druhé osoby, vcítěn",
+        meaning: "<strong>schopnost vcítit se do pocitů, jednání druhé osoby, vcítěn</strong>",
         context: "Řada prvotních neúspěchů mu dává nezměrnou empatii pro začínající podnikatele.",
       },
       {
         word: "agilní",
-        meaning: "čilý, aktivní, horlivý",
+        meaning: "<strong>čilý, aktivní, horlivý</strong>",
         context: "Sice nevyniká ve výuce studentů, ale je to velmi agilní vědec.",
       },
       {
         word: "xenofobie",
-        meaning: "odpor, nepřátelství, strach, nedůvěra ke všemu cizímu",
+        meaning: "<strong>odpor, nepřátelství, strach, nedůvěra ke všemu cizímu</strong>",
         context: "Cestování otevíralo prostor kulturnímu obohacování, ale i k sebeobrannému izolacionismu a xenofobii.",
       },
     ],
