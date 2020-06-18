@@ -1,12 +1,14 @@
 <template>
-  <div>
-    <Logo />
-    <lessonCompleted />
-    <resultsFox />
-    <textBubble2 />
-    <p>{{ lesson1.contextParagraph }}</p>
-    <Button name="Vysvětlení" />
-    <Button name="Test" />
+  <div id="kontejnerCP">
+    <Logo class="logo" />
+    <lessonCompleted class="lessoncompleted" />
+    <resultsFox class="resultsFox" />
+    <textBubble2 class="textBubble2" />
+    <p class="paragraph">{{ lesson1.contextParagraph }}</p>
+    <div class="buttonsCP">
+      <Button class="meaning" name="Vysvětlení" />
+      <Button class="test" name="Test" />
+    </div>
   </div>
 </template>
 
@@ -41,4 +43,43 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+@media screen and (max-width: 400px) {
+  #kontejnerCP {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    position: absolute;
+    top: 4vh;
+    left: 4vh;
+  }
+  .lessoncompleted {
+    position: absolute;
+    left: 15vh;
+    top: 3.5vh;
+  }
+  .resultsFox {
+    position: absolute;
+    left: 0.75vh;
+    top: 9vh;
+  }
+  .textBubble2 {
+    position: absolute;
+    left: 17vh;
+    top: 6vh;
+  }
+  .paragraph {
+  }
+  .buttonsCP {
+  }
+  .meaning {
+  }
+
+  .test {
+  }
+}
+</style>

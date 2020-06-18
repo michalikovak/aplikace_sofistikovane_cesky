@@ -24,12 +24,12 @@
     <textBubble2 />
     <menu />
     <headline />
-    <pGwelcome />-->
+    <pGwelcome />
     <pGlogIn />
-    <!--<pGsignIn />
-    <pGlesson />
+    <pGsignIn /
+    <pGlesson />>-->
     <pGcontextParagraph />
-    <pGmoreExamples />
+    <!--<pGmoreExamples />
     <pGtest />
     <pGresults />-->
   </div>
@@ -54,12 +54,12 @@ import TextBubble from "../components/TextBubble.vue";
 import TextBubble2 from "../components/TextBubble2.vue";
 import Menu from "../components/Menu.vue";
 import Headline from "../components/Headline.vue";
-import PGwelcome from "../components/pages/PGwelcome.vue";*/
+import PGwelcome from "../components/pages/PGwelcome.vue";
 import PGlogIn from "../components/pages/PGlogIn.vue";
-/*import PGsignIn from "../components/pages/PGsignIn.vue";
-import PGlesson from "../components/pages/PGlesson.vue";
+import PGsignIn from "../components/pages/PGsignIn.vue";
+import PGlesson from "../components/pages/PGlesson.vue";*/
 import PGcontextParagraph from "../components/pages/PGcontextParagraph.vue";
-import PGmoreExamples from "../components/pages/PGmoreExamples.vue";
+/*import PGmoreExamples from "../components/pages/PGmoreExamples.vue";
 import PGtest from "../components/pages/PGtest.vue";
 import PGresults from "../components/pages/PGresults.vue";*/
 
@@ -86,12 +86,12 @@ export default {
     textBubble2: TextBubble2,
     menu: Menu,
     headline: Headline,
-    pGwelcome: PGwelcome,*/
+    pGwelcome: PGwelcome,
     pGlogIn: PGlogIn,
-    /*pGsignIn: PGsignIn,
-    pGlesson: PGlesson,
+    pGsignIn: PGsignIn,
+    pGlesson: PGlesson,*/
     pGcontextParagraph: PGcontextParagraph,
-    pGmoreExamples: PGmoreExamples,
+    /*pGmoreExamples: PGmoreExamples,
     pGtest: PGtest,
     pGresults: PGresults,*/
   },

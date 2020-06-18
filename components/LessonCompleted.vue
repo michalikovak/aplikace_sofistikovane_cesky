@@ -1,7 +1,7 @@
 <template>
   <div class="border">
-    <p>Splněno</p>
-    <p>1/5</p>
+    <p class="p1">Splněno</p>
+    <p class="p2">1/5</p>
   </div>
 </template>
 
@@ -14,5 +14,17 @@ export default {
 <style>
 .border {
   border-bottom: 3px solid #7e3b1c;
+  display: flex;
+  max-width: 240px;
+}
+
+.p1 {
+  padding-right: 20vh;
+  margin-bottom: 0.5vh;
+}
+
+.p2 {
+  padding-left: 3vh;
+  margin-bottom: 0.5vh;
 }
 </style>

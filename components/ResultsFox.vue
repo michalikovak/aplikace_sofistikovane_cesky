@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img :src="resultsFox" alt="ResultFox" />
+    <img :src="resultsFox" alt="ResultFox" class="resultFox" />
   </div>
 </template>
 
@@ -16,4 +16,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.resultFox {
+  width: 18vh;
+  position: absolute;
+  top: 17vh;
+  left: 3.5vh;
+}
+</style>

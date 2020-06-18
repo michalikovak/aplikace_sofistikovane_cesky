@@ -7,7 +7,7 @@
 <script>
 import bubble2 from "../assets/img/bubble2.png";
 export default {
-  name: "App",
+  name: "textBubble2",
   data() {
     return {
       bubble2,
@@ -16,4 +16,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#textBubble2 {
+  width: 35vh;
+  height: 50vh;
+}
+</style>
