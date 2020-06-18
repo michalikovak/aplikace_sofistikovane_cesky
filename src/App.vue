@@ -27,11 +27,11 @@
     <pGwelcome />
     <pGlogIn />
     <pGsignIn /
-    <pGlesson />>
+    <pGlesson />
     <pGcontextParagraph />
-    <pGmoreExamples />-->
-    <pGtest />
-    <!--<pGresults />-->
+    <pGmoreExamples />
+    <pGtest />-->
+    <pGresults />
   </div>
 </template>
 
@@ -59,9 +59,9 @@ import PGlogIn from "../components/pages/PGlogIn.vue";
 import PGsignIn from "../components/pages/PGsignIn.vue";
 import PGlesson from "../components/pages/PGlesson.vue";
 import PGcontextParagraph from "../components/pages/PGcontextParagraph.vue";
-import PGmoreExamples from "../components/pages/PGmoreExamples.vue";*/
-import PGtest from "../components/pages/PGtest.vue";
-/*import PGresults from "../components/pages/PGresults.vue";*/
+import PGmoreExamples from "../components/pages/PGmoreExamples.vue";
+import PGtest from "../components/pages/PGtest.vue";*/
+import PGresults from "../components/pages/PGresults.vue";
 
 export default {
   name: "App",
@@ -91,9 +91,9 @@ export default {
     pGsignIn: PGsignIn,
     pGlesson: PGlesson,
     pGcontextParagraph: PGcontextParagraph,
-    pGmoreExamples: PGmoreExamples,*/
-    pGtest: PGtest,
-    /*pGresults: PGresults,*/
+    pGmoreExamples: PGmoreExamples,
+    pGtest: PGtest,*/
+    pGresults: PGresults,
   },
 };
 </script>

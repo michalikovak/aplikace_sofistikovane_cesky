@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="kontejnerTest">
     <Logo class="logo" />
     <lessonCompleted class="lessonCompleted" />
     <div class="sentences" v-for="test in lesson1test">
@@ -45,7 +45,7 @@ export default {
 
 <style scoped>
 @media screen and (max-width: 400px) {
-  #kontejnerCP {
+  #kontejnerTest {
     position: relative;
     display: flex;
     flex-direction: column;
