@@ -3,14 +3,10 @@
     <Logo class="logo" />
     <lessonCompleted class="lessoncompleted" />
     <resultsFox class="resultsFox" />
-    <p class="CPtext">
-      Přečti si článek, pokud budeš rozumět rozumnět všem tučně zvýrazněným
-      slovům, přejdi na test. Potřebuješ-li nějaké výrazy vysvětlit, přejdi na
-      vysvětlení.
-    </p>
-    <textBubble3 class="textBubble3" />
+    <BublinaSTextem3 class="BublinaSTextem3" />
     <p class="paragraph" v-html="lesson1.contextParagraph">
-      <!--{{ lesson1.contextParagraph }}-->>
+      <!--{{ lesson1.contextParagraph }}-->
+      >
     </p>
     <div class="buttonsCP">
       <Button class="meaning" name="Vysvětlení" />
@@ -23,7 +19,7 @@
 import Logo from "../Logo.vue";
 import LessonCompleted from "../LessonCompleted.vue";
 import ResultsFox from "../ResultsFox.vue";
-import TextBubble3 from "../TextBubble3.vue";
+import BublinaSTextem3 from "../BublinaSTextem3.vue";
 import data from "../../src/data.js";
 import Button from "../Button.vue";
 
@@ -37,71 +33,81 @@ export default {
   },*/
   data() {
     return {
-      lesson1: data[0],
+      lesson1: data[0]
     };
   },
   components: {
     Logo: Logo,
     lessonCompleted: LessonCompleted,
     resultsFox: ResultsFox,
-    textBubble3: TextBubble3,
-    Button: Button,
-  },
+    BublinaSTextem3: BublinaSTextem3,
+    Button: Button
+  }
 };
 </script>
 
 <style scoped>
-@media screen and (max-width: 400px) {
+#kontejnerCP {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  position: absolute;
+  top: 4vh;
+  left: 4vh;
+}
+.lessoncompleted {
+  position: relative;
+  left: 6vh;
+  top: 3.5vh;
+}
+.resultsFox {
+  position: absolute;
+  top: 1vh;
+  left: 1.5vh;
+
+  z-index: 1;
+}
+.BublinaSTextem3 {
+  position: absolute;
+  left: 20vh;
+  top: 0;
+}
+.paragraph {
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 40vh;
+  max-width: 48vh;
+  background-color: white;
+}
+
+.CPtext {
+  font-size: 1rem;
+  position: absolute;
+  left: 27vh;
+  top: 25vh;
+  z-index: 1;
+}
+.buttonsCP {
+  position: absolute;
+  top: 137vh;
+  display: flex;
+}
+.meaning,
+.test {
+  padding: 0;
+}
+@media screen and (min-width: 376px) {
   #kontejnerCP {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .logo {
-    position: absolute;
-    top: 4vh;
-    left: 4vh;
-  }
-  .lessoncompleted {
-    position: relative;
-    left: 6vh;
-    top: 3.5vh;
-  }
-  .resultsFox {
-    position: absolute;
-    top: 1vh;
-    left: 1.5vh;
-
-    z-index: 1;
-  }
-  .textBubble3 {
-    position: absolute;
-    left: 20vh;
-    top: 0;
-  }
-  .paragraph {
-    position: absolute;
-    top: 70vh;
-    max-width: 48vh;
-  }
-
-  .CPtext {
-    font-size: 1rem;
-    position: absolute;
-    left: 27vh;
-    top: 25vh;
-    z-index: 1;
-  }
-  .buttonsCP {
-    position: absolute;
-    top: 165vh;
-    display: flex;
-  }
-  .meaning,
-  .test {
-    padding: 0;
   }
 }
 </style>

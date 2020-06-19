@@ -3,16 +3,9 @@
     <Logo class="logo" />
     <lessonCompleted class="lessonCompleted" />
     <resultsFox class="resultsFox" />
-    <p class="pecko">
-      Výborně!<br />
-      Mám radost z tvé<br />
-      sofistikované češtiny!
-    </p>
-    <p class="pecko2">
-      Z testu máš dobře<br />
-      6 z 10!!
-    </p>
-    <textBubble class="textBubble" />
+
+    <BublinaSTextem2 class="BublinaSTextem2" />
+    <p>Měl jsi dobře 9/10</p>
     <Button class="butonik" name="Menu" />
   </div>
 </template>
@@ -21,7 +14,7 @@
 import Logo from "../Logo.vue";
 import LessonCompleted from "../LessonCompleted.vue";
 import ResultsFox from "../ResultsFox.vue";
-import TextBubble from "../TextBubble.vue";
+import BublinaSTextem2 from "../BublinaSTextem2.vue";
 import Button from "../Button.vue";
 export default {
   name: "PGresults",
@@ -29,64 +22,56 @@ export default {
     Logo: Logo,
     lessonCompleted: LessonCompleted,
     resultsFox: ResultsFox,
-    textBubble: TextBubble,
-    Button: Button,
-  },
+    BublinaSTextem2: BublinaSTextem2,
+    Button: Button
+  }
 };
 </script>
 
 <style scoped>
-@media screen and (max-width: 400px) {
+.logo {
+  position: absolute;
+  top: 4vh;
+  left: 4vh;
+}
+.lessonCompleted {
+  position: absolute;
+  left: 16vh;
+  top: 3.5vh;
+}
+
+.butonik {
+  position: absolute;
+  top: 90vh;
+  left: 17vh;
+}
+.resultsFox {
+  position: absolute;
+  top: 42vh;
+  left: 16vh;
+}
+
+.BublinaSTextem2 {
+  position: absolute;
+  top: 15vh;
+  left: 3vh;
+}
+
+p {
+  font-size: 1.2rem;
+  position: absolute;
+  left: 16vh;
+  top: 46ch;
+}
+@media screen and (min-width: 376px) {
   #kontejnerResults {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .logo {
     position: absolute;
-    top: 4vh;
-    left: 4vh;
-  }
-  .lessonCompleted {
-    position: absolute;
-    left: 16vh;
-    top: 3.5vh;
-  }
-  .pecko {
-    position: absolute;
-    top: 18vh;
-    left: 10vh;
-    max-width: 49vh;
-    font-size: 1.3rem;
-    text-align: center;
-    z-index: 1;
-  }
-  .pecko2 {
-    position: absolute;
-    top: 35vh;
-    left: 12vh;
-    max-width: 49vh;
-    font-size: 1.3rem;
-    text-align: center;
-    z-index: 1;
-  }
-  .butonik {
-    position: absolute;
-    top: 90vh;
-    left: 15vh;
-  }
-  .resultsFox {
-    position: absolute;
-    top: 42vh;
-    left: 16vh;
-  }
-
-  .textBubble {
-    position: absolute;
-    top: 10vh;
-    left: 3vh;
+    left: 36.5%;
   }
 }
 </style>

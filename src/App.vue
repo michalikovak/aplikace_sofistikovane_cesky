@@ -5,7 +5,7 @@
       rel="stylesheet"
     />
 
-    <!--<customButton /
+    <!--<Button /
     <contextParagraph />
     <cPIntroduction />
     <hamburger />
@@ -23,15 +23,15 @@
     <textBubble />
     <textBubble3 />
     <menu />
-    <headline />>-->
+    <headline />
     <pGwelcome />
-    <!--<pGlogIn />
+    <pGlogIn />
     <pGsignIn />
-    <pGlesson />
+    <pGlesson />-->
     <pGcontextParagraph />
-    <pGmoreExamples />
-    <pGtest /
-    <pGresults />>-->
+    <!--<pGmoreExamples />
+    <pGtest />
+    <pGresults />-->
   </div>
 </template>
 
@@ -53,20 +53,20 @@ import ResultsFox from "../components/ResultsFox.vue";
 import TextBubble from "../components/TextBubble.vue";
 import TextBubble3 from "../components/TextBubble3.vue";
 import Menu from "../components/Menu.vue";
-import Headline from "../components/Headline.vue";*/
+import Headline from "../components/Headline.vue"
 import PGwelcome from "../components/pages/PGwelcome.vue";
-/*import PGlogIn from "../components/pages/PGlogIn.vue";
+import PGlogIn from "../components/pages/PGlogIn.vue";
 import PGsignIn from "../components/pages/PGsignIn.vue";
-import PGlesson from "../components/pages/PGlesson.vue";
+import PGlesson from "../components/pages/PGlesson.vue";*/
 import PGcontextParagraph from "../components/pages/PGcontextParagraph.vue";
-import PGmoreExamples from "../components/pages/PGmoreExamples.vue";
+/*import PGmoreExamples from "../components/pages/PGmoreExamples.vue";
 import PGtest from "../components/pages/PGtest.vue";
 import PGresults from "../components/pages/PGresults.vue";*/
 
 export default {
   name: "App",
   components: {
-    /*customButton: Button,
+    /*Button: Button,
     contextParagraph: ContextParagraph,
     cPIntroduction: CPIntroduction,
     hamburger: Hamburger,
@@ -75,7 +75,6 @@ export default {
     logIn: LogIn,
     logo: Logo,
     moreExamples: MoreExamples,
-    
     resultsText: ResultsText,
     input: Input,
     testContextSentences: TestContextSentences,
@@ -86,15 +85,15 @@ export default {
     textBubble3: TextBubble3,
     menu: Menu,
     headline: Headline,*/
-    pGwelcome: PGwelcome,
+    /*pGwelcome: PGwelcome
     /*pGlogIn: PGlogIn,
     pGsignIn: PGsignIn,
-    pGlesson: PGlesson,
-    pGcontextParagraph: PGcontextParagraph,
-    pGmoreExamples: PGmoreExamples,
+    pGlesson: PGlesson,*/
+    pGcontextParagraph: PGcontextParagraph
+    /*pGmoreExamples: PGmoreExamples,
     pGtest: PGtest,
-    pGresults: PGresults,*/
-  },
+    pGresults: PGresults*/
+  }
 };
 </script>
 
@@ -112,6 +111,6 @@ html {
   color: #7e3b1c;
 }
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 </style>
