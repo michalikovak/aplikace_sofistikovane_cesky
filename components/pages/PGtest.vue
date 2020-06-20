@@ -4,17 +4,10 @@
     <div class="sentences" v-for="test in lesson.test" :key="test.result">
       <p class="Qstart">{{ test.questionStart }}</p>
       <!--<p class="option">{{ test.options1 }}</p>-->
-      <select class="select" v-model="options1"
-        ><option class="prvni">asketický</option>
-        <option>sofistikovaný</option>
-        <option>demagogický</option>
-        <option>polemika</option>
-        <option>exaktní</option>
-        <option>segregace</option>
-        <option>empatie</option>
-        <option>agilní</option>
-        <option>xenofobie</option>
-        <option>cynik</option>
+      <select class="select" v-model="options1">
+        <option v-for="word in randomList(lesson.words)" :key="word.word">{{
+          word.word
+        }}</option>
       </select>
       <p class="Qend">{{ test.questionEnd }}</p>
     </div>
@@ -37,6 +30,11 @@ export default {
   components: {
     Hlavicka2: Hlavicka2,
     Button: Button,
+  },
+  methods: {
+    randomList: function(list) {
+      return list.sort(() => 0.5 - Math.random());
+    },
   },
 };
 </script>

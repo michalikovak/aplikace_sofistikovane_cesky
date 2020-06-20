@@ -1,6 +1,5 @@
 <template>
   <div id="kontejnerCP">
-    <Logo class="logo" />
     <Hlavicka2 class="hlavicka2" />
     <resultsFox class="resultsFox" />
     <BublinaSTextem3 class="BublinaSTextem3" />

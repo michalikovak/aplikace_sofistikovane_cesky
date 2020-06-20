@@ -15,7 +15,6 @@
 
 <script>
 import Hlavicka2 from "../Hlavicka2.vue";
-import Logo from "../Logo.vue";
 import LessonCompleted from "../LessonCompleted.vue";
 import Link from "../Link.vue";
 import WelcomeFox from "../WelcomeFox.vue";
