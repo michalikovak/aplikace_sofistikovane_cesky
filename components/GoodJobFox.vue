@@ -1,11 +1,8 @@
 <template>
   <div id="kontejnerResults">
-    <BublinaSTextem2 class="BublinaSTextem2" />
-    <resultsFox class="resultsFox" />
-
+    <p>Dobře {{ correct }}/{{ count }}</p>
     <img id="BublinaSTextem2" :src="BublinaSTextem2" alt="Text Bubble" />
     <img :src="resultsFox" alt="ResultFox" class="resultFox" />
-    <p>Dobře 9/10</p>
   </div>
 </template>
 
@@ -14,6 +11,7 @@ import BublinaSTextem2 from "../assets/img/BublinaSTextem2.png";
 import resultsFox from "../assets/img/resultsFox.png";
 export default {
   name: "GoodJobFox",
+  props: ["correct", "count"],
   data() {
     return {
       BublinaSTextem2,
@@ -32,6 +30,6 @@ export default {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 </style>
