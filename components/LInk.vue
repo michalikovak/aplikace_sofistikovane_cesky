@@ -1,5 +1,5 @@
 <template>
-  <router-link class="link" :to="to">Lekce {{ name }}</router-link>
+  <router-link class="link" :to="to">{{ name.name }}</router-link>
 </template>
 
 <script>

@@ -1,15 +1,18 @@
 <template>
-  <div>
+  <div class="box">
+    <img :src="resultsFox" alt="ResultFox" class="resultFox" />
     <img id="BublinaSTextem3" :src="BublinaSTextem3" alt="Text Bubble" />
   </div>
 </template>
 
 <script>
+import resultsFox from "../assets/img/resultsFox.png";
 import BublinaSTextem3 from "../assets/img/BublinaSTextem3.png";
 export default {
-  name: "BublinaSTextem3",
+  name: "CPTalkingFox",
   data() {
     return {
+      resultsFox,
       BublinaSTextem3,
     };
   },
@@ -17,6 +20,13 @@ export default {
 </script>
 
 <style>
+.box {
+  margin-top: 20px;
+}
+.resultFox {
+  width: 18vh;
+}
+
 #BublinaSTextem3 {
   width: 33vh;
 }

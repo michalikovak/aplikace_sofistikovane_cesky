@@ -1,19 +1,18 @@
 <template>
   <div id="kontejnerCP">
     <Hlavicka2 class="hlavicka2" />
-    <resultsFox class="resultsFox" />
-    <BublinaSTextem3 class="BublinaSTextem3" />
+    <CPTalkingFox />
     <p class="paragraph" v-html="lesson.contextParagraph"></p>
     <div class="linkButton">
       <Link
         class="meaning"
         :to="{ path: `/lesson/${lesson.lesson}/examples` }"
-        name="Vysvětlení"
+        :name="{ name: 'Vysvětlení' }"
       />
       <Link
         class="test"
         :to="{ path: `/lesson/${lesson.lesson}/test` }"
-        name="Test"
+        :name="{ name: 'Test' }"
       />
     </div>
   </div>
@@ -21,8 +20,7 @@
 
 <script>
 import Hlavicka2 from "../Hlavicka2.vue";
-import ResultsFox from "../ResultsFox.vue";
-import BublinaSTextem3 from "../BublinaSTextem3.vue";
+import CPTalkingFox from "../CPTalkingFox.vue";
 import data from "../../src/data.js";
 import Link from "../Link.vue";
 
@@ -36,8 +34,7 @@ export default {
   },
   components: {
     Hlavicka2: Hlavicka2,
-    resultsFox: ResultsFox,
-    BublinaSTextem3: BublinaSTextem3,
+    CPTalkingFox: CPTalkingFox,
     Link: Link,
   },
 };
@@ -55,14 +52,14 @@ export default {
 .paragraph {
   border-radius: 10px;
   padding: 10px;
-
-  max-width: 48vh;
+  margin-top: 50px;
+  max-width: 700px;
+  width: 90%;
   background-color: white;
 }
 
 .CPtext {
   font-size: 1rem;
-
   z-index: 1;
 }
 

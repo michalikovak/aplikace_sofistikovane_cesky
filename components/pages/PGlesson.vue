@@ -6,7 +6,7 @@
         v-for="lesson in data"
         :to="{ path: `/lesson/${lesson.lesson}` }"
         :key="lesson.lesson"
-        :name="lesson.lesson"
+        :name="{ name: `Lekce ${lesson.lesson}` }"
       />
     </div>
     <welcomeFox class="welcomeFox" />

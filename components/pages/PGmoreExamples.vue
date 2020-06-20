@@ -9,7 +9,7 @@
     <Link
       class="linkButton"
       :to="{ path: `/lesson/${lesson.lesson}/test` }"
-      name="Test"
+      :name="{ name: 'Test' }"
     />
   </div>
 </template>
