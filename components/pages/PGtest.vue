@@ -1,8 +1,7 @@
 <template>
   <div id="kontejnerTest">
-    <Logo class="logo" />
     <Hlavicka2 class="hlavicka2" />
-    <div class="sentences" v-for="test in lesson1test">
+    <div class="sentences" v-for="test in lesson.test" :key="test.result">
       <p class="Qstart">{{ test.questionStart }}</p>
       <!--<p class="option">{{ test.options1 }}</p>-->
       <select class="select" v-model="options1"
@@ -24,19 +23,18 @@
 </template>
 
 <script>
-import Logo from "../Logo.vue";
 import Hlavicka2 from "../Hlavicka2.vue";
 import data from "../../src/data.js";
 import Button from "../Button.vue";
 export default {
   name: "PGtest",
-  data() {
-    return {
-      lesson1test: data[0].test,
-    };
+  computed: {
+    lesson: function() {
+      const id = parseInt(this.$route.params.id, 10);
+      return data.find((liska) => liska.lesson === id);
+    },
   },
   components: {
-    Logo: Logo,
     Hlavicka2: Hlavicka2,
     Button: Button,
   },

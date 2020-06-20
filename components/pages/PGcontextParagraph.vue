@@ -4,44 +4,42 @@
     <Hlavicka2 class="hlavicka2" />
     <resultsFox class="resultsFox" />
     <BublinaSTextem3 class="BublinaSTextem3" />
-    <p class="paragraph" v-html="lesson1.contextParagraph">
-      <!--{{ lesson1.contextParagraph }}-->
-      >
-    </p>
-    <div class="buttonsCP">
-      <Button class="meaning" name="Vysvětlení" />
-      <Button class="test" name="Test" />
+    <p class="paragraph" v-html="lesson.contextParagraph"></p>
+    <div class="linkButton">
+      <Link
+        class="meaning"
+        :to="{ path: `/lesson/${lesson.lesson}/examples` }"
+        name="Vysvětlení"
+      />
+      <Link
+        class="test"
+        :to="{ path: `/lesson/${lesson.lesson}/test` }"
+        name="Test"
+      />
     </div>
   </div>
 </template>
 
 <script>
-import Logo from "../Logo.vue";
 import Hlavicka2 from "../Hlavicka2.vue";
 import ResultsFox from "../ResultsFox.vue";
 import BublinaSTextem3 from "../BublinaSTextem3.vue";
 import data from "../../src/data.js";
-import Button from "../Button.vue";
+import Link from "../Link.vue";
 
 export default {
   name: "PGcontextParagraph",
-  /*computed: {
-    lesson1: function() {
-      console.log(data[0]);
-      return data[0];
+  computed: {
+    lesson: function() {
+      const id = parseInt(this.$route.params.id, 10);
+      return data.find((liska) => liska.lesson === id);
     },
-  },*/
-  data() {
-    return {
-      lesson1: data[0],
-    };
   },
   components: {
-    Logo: Logo,
     Hlavicka2: Hlavicka2,
     resultsFox: ResultsFox,
     BublinaSTextem3: BublinaSTextem3,
-    Button: Button,
+    Link: Link,
   },
 };
 </script>

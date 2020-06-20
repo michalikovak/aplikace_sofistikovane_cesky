@@ -22,7 +22,6 @@ const router = new VueRouter({
     { path: "/signin", component: PGsignIn, name: "signin" },
     { path: "/lessons", component: PGlesson, name: "lessons" },
     { path: "/lesson/:id", component: PGcontextParagraph, name: "lesson" },
-    { path: "/lesson/:id/context", component: PGcontextParagraph, name: "context" },
     { path: "/lesson/:id/examples", component: PGmoreExamples, name: "examples" },
     { path: "/lesson/:id/test", component: PGtest, name: "test" },
     { path: "/lesson/:id/results", component: PGresults, name: "results" },
