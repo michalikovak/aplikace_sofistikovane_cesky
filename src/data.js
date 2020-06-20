@@ -218,56 +218,56 @@ export default [
   },
   {
     lesson: 3,
-    contextParagraph: "Po spuštění 'Železné opony' byla patrná čím dál tím větší názorová dilatace obou znepřátelených stran. Této době se také říká 'Studená válka'. Co tomu říká prostý lid bylo pro politiky zcela irelevantní. Východní blok se několikrát pokusil demonstrovat svoji válečnou připravenost přehnaně ostentativním způsobem. Obě politická uskupení nakonec došla k názoru, že se v budoucnu budou obě stany muset řídit určitými konvencemi, které zúčastněné velmoci ad hoc vytvoří. Nikdy však nebylo apriori dané, že se některá ze stran nebude snažit tyto úmluvy obejít. Proto bylo připraveno několik zcela obligatorních smluv, které byly následně, za účasti nejvyšších představitelů, ratifikovány. Bylo důležité, aby tyto smlouvy byly zcela jednoznačné a vyvarovaly se vágních frází, které by se daly později vyložit různými způsoby. Vliv neutrálních států na podepsání těchto smluv byl pouze marginální, nemající přímý vliv na jejich vytvoření.",
+    contextParagraph: "Po spuštění 'Železné opony' byla patrná čím dál tím větší názorová <strong>dilatace</strong> obou znepřátelených stran. Této době se také říká 'Studená válka'. Co tomu říká prostý lid bylo pro politiky zcela <strong>irelevantní</strong>. Východní blok se několikrát pokusil demonstrovat svoji válečnou připravenost přehnaně <strong>ostentativním</strong> způsobem. Obě politická uskupení nakonec došla k názoru, že se v budoucnu budou obě stany muset řídit určitými <strong>konvencemi</strong>, které zúčastněné velmoci <strong>ad hoc</strong> vytvoří. Nikdy však nebylo <strong>apriori</strong> dané, že se některá ze stran nebude snažit tyto úmluvy obejít. Proto bylo připraveno několik zcela <strong>obligatorních</strong> smluv, které byly následně, za účasti nejvyšších představitelů, <strong>ratifikovány</strong>. Bylo důležité, aby tyto smlouvy byly zcela jednoznačné a vyvarovaly se <strong>vágních</strong> frází, které by se daly později vyložit různými způsoby. Vliv neutrálních států na podepsání těchto smluv byl pouze <strong>marginální</strong>, nemající přímý vliv na jejich vytvoření.",
     words: [
       {
         word: "ad hoc",
-        meaning: "jen pro tento případ, k této věci, k tomuto účelu",
+        meaning: "<strong>jen pro tento případ, k této věci, k tomuto účelu</strong>",
         context: "V současnosti vznikají na lokální úrovni ad hoc občanská sdružení, která vyjadřují negativní postoje.",
       },
       {
         word: "vágní",
-        meaning: "nejasný, nejednoznačný, neurčitý, nepřesný",
+        meaning: "<strong>nejasný, nejednoznačný, neurčitý, nepřesný</strong>",
         context: "Pokouším se svoje pocity z té knihy, dosud vágní a neurčité, formulovat do přesných slov.",
       },
       {
         word: "ostentativní",
-        meaning: "úmyslně vzbuzující pozornost, vyzývavý, nápadný",
+        meaning: "<strong>úmyslně vzbuzující pozornost, vyzývavý, nápadný</strong>",
         context: "Vyslovila slovo hamburger s ostentativním americkým přízvukem.",
       },
       {
         word: "konvence",
-        meaning: "dohoda, úmluva; ustálený způsob jednání, společenské pravidlo",
+        meaning: "<strong>dohoda, úmluva; ustálený způsob jednání, společenské pravidlo</strong>",
         context: "Při cestování se snaží řídit kulturními konvencemi dané země.",
       },
       {
         word: "apriori",
-        meaning: "předem",
+        meaning: "<strong>předem</strong>",
         context: "Je smutné, že staří lidé jsou apriori vyřazováni z různých aktivit.",
       },
       {
         word: "dilatace",
-        meaning: "rozšíření, roztažení, zvětšení",
+        meaning: "<strong>rozšíření, roztažení, zvětšení</strong>",
         context: "Lékař monitoroval dilataci porodních cest.",
       },
       {
         word: "obligatorní",
-        meaning: "povinný, závazný, nutný",
+        meaning: "<strong>povinný, závazný, nutný</strong>",
         context: "Protože tyto slavnostní akty měly právní význam, byly některé jejich části obligatorní, jiné podle místa symbolické.",
       },
       {
         word: "irelevantní",
-        meaning: "bezvýznamný, nezávažný, vedlejší, nepodstatný",
+        meaning: "<strong>bezvýznamný, nezávažný, vedlejší, nepodstatný</strong>",
         context: "Žalobce znovu vyskočil. 'Námitka, Vaše Ctihodnosti. Otázka je irelevantní.'",
       },
       {
         word: "ratifikace",
-        meaning: "potvrzení, schválení, podepsání",
+        meaning: "<strong>potvrzení, schválení, podepsání</strong>",
         context: "Většina z nich však byla po válce opuštěna a po ratifikaci Madridského protokolu v roce 1998 byly odklizeny.",
       },
       {
         word: "marginální",
-        meaning: "okrajový, mezní, nedůležitý, zanedbatelný",
+        meaning: "<strong>okrajový, mezní, nedůležitý, zanedbatelný</strong>",
         context: "Tato práce se zabývá problematikou vzniku a vývoje marginálních oblastí na území České republiky.",
       },
     ],
@@ -326,56 +326,56 @@ export default [
   },
   {
     lesson: 4,
-    contextParagraph: "Když začala J.K. Rowlingová psát příběhy o Harry Potterovi a jeho kamarádech, sama netušila jaký poprask tím vyvolá. Prodávanost jejích knih se stala bezprecedentní a vytvořila dlouho nepřekonatelný rekord. To, jak dokázala mistrně fabulovat děj tohoto vyprávění, kdy čtenář nedokáže knihu odložit, je až dech beroucí. Jedině nějaký  analfabet by nedokázal ocenit, co tato žena dokázala. Zrodila něco neskutečného, zrodila Harryho Pottera. Je možné, že řada čtenářů má obsedantní názor, že Harry zneužívá toho, že se stal už za svého života legendou. Někomu se také může jevit jako egoistický chlapec jednající pouze ve vlastním zájmu, který je kvůli svému původy poněkud ješitný, ale opak je pravdou. Harry je týmový hráč. Samozřejmě, Harry by nebyl Harrym, nebýt jeho přátel. Vzpomeňme například na žoviálního Hagrida, který sice rozumu moc nepobral, ale jeho srdce je na tom správném místě. Nebo na Hermionu Grangerovou, která bývá na své přátele poněkud sarkastická, ale to je tím, že je premiantkou a své kamarády převyšuje intelektem. Harry ovšem nemá jen samé přátele. Jistě si ještě pamatujete na šestý díl, kde ho ve vlaku do Bradavic inzultoval Draco Malfloy. Může se zdát, že jsem poněkud patetický, ale knihy o mladém čaroději mě zcela pohltily a já je přečetl jedním dechem.",
+    contextParagraph: "Když začala J.K. Rowlingová psát příběhy o Harry Potterovi a jeho kamarádech, sama netušila jaký poprask tím vyvolá. Prodávanost jejích knih se stala <strong>bezprecedentní</strong> a vytvořila dlouho nepřekonatelný rekord. To, jak dokázala mistrně <strong>fabulovat</strong> děj tohoto vyprávění, kdy čtenář nedokáže knihu odložit, je až dech beroucí. Jedině nějaký <strong>analfabet</strong> by nedokázal ocenit, co tato žena dokázala. Zrodila něco neskutečného, zrodila Harryho Pottera. Je možné, že řada čtenářů má <strong>obsedantní</strong> názor, že Harry zneužívá toho, že se stal už za svého života legendou. Někomu se také může jevit jako <strong>egoistický</strong> chlapec jednající pouze ve vlastním zájmu, který je kvůli svému původy poněkud <strong>ješitný</strong>, ale opak je pravdou. Harry je týmový hráč. Samozřejmě, Harry by nebyl Harrym, nebýt jeho přátel. Vzpomeňme například na <strong>žoviálního</strong> Hagrida, který sice rozumu moc nepobral, ale jeho srdce je na tom správném místě. Nebo na Hermionu Grangerovou, která bývá na své přátele poněkud <strong>sarkastická</strong>, ale to je tím, že je premiantkou a své kamarády převyšuje intelektem. Harry ovšem nemá jen samé přátele. Jistě si ještě pamatujete na šestý díl, kde ho ve vlaku do Bradavic <strong>inzultoval</strong> Draco Malfloy. Může se zdát, že jsem poněkud <strong>patetický</strong>, ale knihy o mladém čaroději mě zcela pohltily a já je přečetl jedním dechem.",
     words: [
       {
         word: "žoviální",
-        meaning: "bodrý, veselý, dobromyslný",
+        meaning: "<strong>bodrý, veselý, dobromyslný</strong>",
         context: "'Nechte mě na pokoji!' pronesla co nejžoviálnějším tónem.",
       },
       {
         word: "obsedantní",
-        meaning: "nutkavý, vtíravý",
+        meaning: "<strong>nutkavý, vtíravý</strong>",
         context: "Pokud má někdo občas obsedantní myšlenku, ještě to neznamená, že trpí OCD.",
       },
       {
         word: "patetický",
-        meaning: "vášnivý, vzrušivý, nadšený, citově nadnesený, vyjadřující patos",
+        meaning: "<strong>vášnivý, vzrušivý, nadšený, citově nadnesený, vyjadřující patos</strong>",
         context: "Měla dost jejích patetických výkřiků. V každém obchodě volala: 'Úchvatné! Velkolepé! Úžasné!'",
       },
       {
         word: "inzultace",
-        meaning: "urážka, potupa; ve sportu napadení rozhodčího",
+        meaning: "<strong>urážka, potupa; ve sportu napadení rozhodčího</strong>",
         context: "Všenory nedohrály derby kvůli inzultaci asistenta rozhodčího.",
       },
       {
         word: "ješitný",
-        meaning: "samolibý, domýšlivý, marnivý",
+        meaning: "<strong>samolibý, domýšlivý, marnivý</strong>",
         context: "Chlapi jsou ješitní, rádi se poslouchají a mají velké ego.",
       },
       {
         word: "analfabet",
-        meaning: "negramotný člověk; nevzdělanec, primitiv, zaostalec",
+        meaning: "<strong>negramotný člověk; nevzdělanec, primitiv, zaostalec</strong>",
         context: "Jeho syn byl analfabet, neuměl se ani podepsat.",
       },
       {
         word: "egoista",
-        meaning: "sobec, jednající zejm. ve prospěch svých zájmů",
+        meaning: "<strong>sobec, jednající zejm. ve prospěch svých zájmů</strong>",
         context: "Jsi tak velký egoista, že máš rád pouze sám sebe.",
       },
       {
         word: "fabulace",
-        meaning: "vymýšlení příběhů, tvoření děje",
+        meaning: "<strong>vymýšlení příběhů, tvoření děje</strong>",
         context: "V románu se nemusíte držet faktů, můžete popustit uzdu fantazii a fabulaci.",
       },
       {
         word: "sarkastický",
-        meaning: "uštěpačný, jízlivý, výsměšný",
+        meaning: "<strong>uštěpačný, jízlivý, výsměšný</strong>",
         context: "Nechtěl jste náhodou zkusit štěstí v showbyznysu? Ptal se s lehkým sarkastickým úsměvem na tváři.",
       },
       {
         word: "precedent",
-        meaning: "předchozí případ, skutek, soudní rozhodnutí, jenž slouží jako model pro něco podobného v budoucnu",
+        meaning: "<strong>předchozí případ, skutek, soudní rozhodnutí, jenž slouží jako model pro něco podobného v budoucnu</strong>",
         context: "Skutečné nebezpečí spočívá v samotném precedentu, ze kterého by se v budoucnu mohla stát ústavní zvyklost.",
       },
     ],
@@ -434,56 +434,56 @@ export default [
   },
   {
     lesson: 5,
-    contextParagraph: "Na začátku o sobě musím říci, že rozhodně nejsem žádný misogyn. Naopak. Pro ženy jsem něco jako vrba, které moho bez obav svěřit své problémy. Už od malička jsem byl tak trochu filantrop a něžné pohlaví, tuto moji lidumilnost, dokázalo vycítit. Sám sebe bych nazval zádumčivým melancholikem, který o potřebách žen, dokáže racionálně uvažovat. Dívky a později ženy u mne vždy nalezly porozumění a možnost svěřit se mi se svými těžkostmi. Při rozhovoru s nimi jsem většinou volil ambivalentní odpovědi, aby si dotyčná osoba sama zvolila, pro ni tu lepší variantu. Když jsem se nemohl v rozhovoru vyhnout nepříjemným pravdám, tak jsem použil zjemňujících eufemizmů, které nepříjemný fakt oděly do přijatelného hávu. Nikdy jsem nechápal blazeované donchuány, kteří se o ženách vyjadřovali převážně pejorativně. Většinou poukazovali na jejich obskurní povahy a v jejich očích byly ženy méněcennými bytostmi. Já takový rozhodně nikdy nebudu. Jsem pro rovnoprávnost mužů a žen ve všech oblastech života. Proto mi nezbývá než zvolat:'Ať žije emancipace!'",
+    contextParagraph: "Na začátku o sobě musím říci, že rozhodně nejsem žádný <strong>misogyn</strong>. Naopak. Pro ženy jsem něco jako vrba, které mohou bez obav svěřit své problémy. Už od malička jsem byl tak trochu <strong>filantrop</strong> a něžné pohlaví, tuto moji lidumilnost, dokázalo vycítit. Sám sebe bych nazval <strong>zádumčivým</strong> <strong>melancholikem</strong>, který o potřebách žen, dokáže racionálně uvažovat. Dívky a později ženy u mne vždy nalezly porozumění a možnost svěřit se mi se svými těžkostmi. Při rozhovoru s nimi jsem většinou volil <strong>ambivalentní</strong> odpovědi, aby si dotyčná osoba sama zvolila, pro ni tu lepší variantu. Když jsem se nemohl v rozhovoru vyhnout nepříjemným pravdám, tak jsem použil zjemňujících <strong>eufemizmů</strong>, které nepříjemný fakt oděly do přijatelného hávu. Nikdy jsem nechápal <strong>blazeované</strong> donchuány, kteří se o ženách vyjadřovali převážně <strong>pejorativně</strong>. Většinou poukazovali na jejich <strong>obskurní</strong> povahy a v jejich očích byly ženy méněcennými bytostmi. Já takový rozhodně nikdy nebudu. Jsem pro rovnoprávnost mužů a žen ve všech oblastech života. Proto mi nezbývá než zvolat:'Ať žije <strong>emancipace</strong>!'",
     words: [
       {
         word: "zádumčivost",
-        meaning: "ponoření se do sebe, hloubavost",
+        meaning: "<strong>ponoření se do sebe, hloubavost</strong>",
         context: "Doktorka se snažila najít důvody zádumčivosti mého pubertálního syna.",
       },
       {
         word: "pejorativní",
-        meaning: "hanlivý, zhoršující význam, vyjadřující záporný vztah",
+        meaning: "<strong>hanlivý, zhoršující význam, vyjadřující záporný vztah</strong>",
         context: "Slovo 'laskavě' má lehce pejorativní konotaci.",
       },
       {
         word: "obskurní",
-        meaning: "mající špatnou pověst, mravně závadný, podezřelý, pochybný",
+        meaning: "<strong>mající špatnou pověst, mravně závadný, podezřelý, pochybný</strong>",
         context: "Místní omladina se slézá v obskurním baru na konci téhle ulice.",
       },
       {
         word: "blazeovaný",
-        meaning: "znuděný, netečný, přesycený požitky",
+        meaning: "<strong>znuděný, netečný, přesycený požitky</strong>",
         context: "Blazeované středoškolačky konzumovaly další koktejl.",
       },
       {
         word: "filantropie",
-        meaning: "lidumilnost, dobročinnost, pomoc sociálně slabým",
+        meaning: "<strong>lidumilnost, dobročinnost, pomoc sociálně slabým</strong>",
         context: "Jean je také známým filantropem. Spolu se ženou Michelle založili nadaci Wish You Well.",
       },
       {
         word: "misogyn",
-        meaning: "nepřítel žen",
+        meaning: "<strong>nepřítel žen</strong>",
         context: "Mít za šéfa ženu je pro takového misogyna hotové utrpení.",
       },
       {
         word: "ambivalentní",
-        meaning: "mající současně dvojí platnost, dvojstranný, dvojsmyslný",
+        meaning: "<strong>mající současně dvojí platnost, dvojstranný, dvojsmyslný</strong>",
         context: "Vztah mezi Iry a Angličany byl vždy ambivalentní a rozporuplný.",
       },
       {
         word: "eufemizmus",
-        meaning: "zjemnění jazykového výrazu označujícího nepříjemnou nebo drsnou skutečnost",
+        meaning: "<strong>zjemnění jazykového výrazu označujícího nepříjemnou nebo drsnou skutečnost</strong>",
         context: "„Přesun“ je dobový eufemizmus pro vraždu unesených a zmizelých osob v tajných vazebních věznicích.",
       },
       {
         word: "emancipace",
-        meaning: "osvobození z podřízeného postavení, zrovnoprávnění",
+        meaning: "<strong>osvobození z podřízeného postavení, zrovnoprávnění</strong>",
         context: "Středoevropanky v emancipaci poněkud pokulhávají a jejich společenská role v některých uměleckých dílech ze současnosti bývá zplošťována.",
       },
       {
         word: "melancholik",
-        meaning: "citlivý, introvertní, zádumčivý člověk",
+        meaning: "<strong>citlivý, introvertní, zádumčivý člověk</strong>",
         context: "Stabilní introvert odpovídá flegmatikovi, labilní introvert melancholikovi, stabilní extrovert sangvinikovi a labilní extrovert cholerikovi.",
 
       },
