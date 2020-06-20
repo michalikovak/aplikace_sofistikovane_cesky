@@ -72,8 +72,4 @@ export default {
 .PasswordAgain {
   padding: 3vh;
 }
-
-.btnsignin {
-  padding: 3vh;
-}
 </style>
