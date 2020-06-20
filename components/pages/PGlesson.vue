@@ -1,12 +1,13 @@
 <template>
   <div id="kontejnerlesson">
     <Hlavicka2 class="hlavicka2" />
-    <div id="buttonslesson">
-      <Button class="lesson" name="Lekce 1" />
-      <Button class="lesson" name="Lekce 2" />
-      <Button class="lesson" name="Lekce 3" />
-      <Button class="lesson" name="Lekce 4" />
-      <Button class="lesson" name="Lekce 5" />
+    <div id="linksButton">
+      <Link
+        v-for="lesson in data"
+        :to="{ path: `/lesson/${lesson.lesson}` }"
+        :key="lesson.lesson"
+        :name="lesson.lesson"
+      />
     </div>
     <welcomeFox class="welcomeFox" />
   </div>
@@ -14,15 +15,20 @@
 
 <script>
 import Hlavicka2 from "../Hlavicka2.vue";
-import Logo from "../Logo.vue";
 import LessonCompleted from "../LessonCompleted.vue";
-import Button from "../Button.vue";
+import Link from "../Link.vue";
 import WelcomeFox from "../WelcomeFox.vue";
+import data from "../../src/data";
 export default {
   name: "PGlesson",
+  data() {
+    return {
+      data,
+    };
+  },
   components: {
     Hlavicka2: Hlavicka2,
-    Button: Button,
+    Link: Link,
     welcomeFox: WelcomeFox,
   },
 };
@@ -37,7 +43,7 @@ export default {
   align-items: center;
 }
 
-#buttonslesson {
+#linksButton {
   display: flex;
   flex-direction: column;
   align-items: center;

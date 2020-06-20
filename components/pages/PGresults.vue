@@ -1,9 +1,7 @@
 <template>
   <div kontejnerResults>
-    <Logo class="logo" />
     <Hlavicka2 class="hlavicka2" />
     <resultsFox class="resultsFox" />
-
     <BublinaSTextem2 class="BublinaSTextem2" />
     <p>Měl jsi dobře 9/10</p>
     <Button class="butonik" name="Menu" />
@@ -11,7 +9,6 @@
 </template>
 
 <script>
-import Logo from "../Logo.vue";
 import Hlavicka2 from "../Hlavicka2.vue";
 import ResultsFox from "../ResultsFox.vue";
 import BublinaSTextem2 from "../BublinaSTextem2.vue";
@@ -19,7 +16,6 @@ import Button from "../Button.vue";
 export default {
   name: "PGresults",
   components: {
-    Logo: Logo,
     Hlavicka2: Hlavicka2,
     resultsFox: ResultsFox,
     BublinaSTextem2: BublinaSTextem2,
@@ -30,7 +26,6 @@ export default {
 
 <style scoped>
 #kontejnerResults {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
