@@ -1,30 +1,23 @@
 <template>
-  <div class="signIn">
-    <button id="Signin">{{ name }}</button>
-  </div>
+  <button class="Signin">{{ name }}</button>
 </template>
 
 <script>
 export default {
   name: "Button",
-  props: ["name"]
+  props: ["name"],
 };
 </script>
 
 <style>
-#Signin {
-  width: 15vh;
-  height: 35px;
+.Signin {
+  width: 17vh;
+  height: 6vh;
   background: #7e3b1c;
   color: white;
   border-radius: 12px;
   border: 1px solid #7e3b1c;
-  margin: 20px;
+  margin-top: 20px;
   outline: none;
-}
-.signIn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 </style>

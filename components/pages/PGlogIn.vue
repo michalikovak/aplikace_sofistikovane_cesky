@@ -15,8 +15,8 @@
         placeholder="Heslo"
       />
     </div>
-    <Button class="buttonLI" name="Přihlásit se" />
     <ChciVstoupitBezRegistrace class="loginmenu" />
+    <Button class="buttonLI" name="Přihlásit se" />
   </div>
 </template>
 
@@ -38,32 +38,35 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (max-width: 400px) {
-  #kontejnerLogIn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+#kontejnerLogIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .inptName,
-  .inptPassword {
-    padding: 3vh;
-  }
+.inptName,
+.inptPassword {
+  padding: 3vh;
+}
 
-  .loginmenu :hover {
-    color: #e26d5c;
-  }
-  ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  li {
-    width: 250px;
-  }
-  .liregistration :hover {
-    color: #e26d5c;
-  }
+.hlavicka {
+  margin-bottom: 18vh;
+}
+
+.loginmenu :hover {
+  color: #e26d5c;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  width: 250px;
+  padding: 30px;
+}
+.liregistration :hover {
+  color: #e26d5c;
 }
 </style>
