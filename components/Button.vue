@@ -7,12 +7,12 @@
 <script>
 export default {
   name: "Button",
-  props: ["name"],
+  props: ["name"]
 };
 </script>
 
 <style>
-button {
+#Signin {
   width: 15vh;
   height: 35px;
   background: #7e3b1c;
@@ -23,8 +23,6 @@ button {
   outline: none;
 }
 .signIn {
-  width: 25vh;
-  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;

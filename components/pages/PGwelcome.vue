@@ -1,84 +1,99 @@
 <template>
-  <div class="containerPGwelcome">
-    <Logo class="logo" />
-    <headline class="headline" />
-    <p>
-      Nepoužívej cizí termity,<br />
-      když je neznáš suterénně<br />
-      a nejsi v dobré konvici.<br />
-      Je zde velké rizoto,<br />
-      že to skončí fiatem.
-    </p>
-    <textBubble class="textBubble" />
-    <div class="menu">
-      <Menu class="welcomemenu" />
+  <div class="stred">
+    <div class="containerPGwelcome">
+      <Logo class="logo" />
+      <headline class="headline" />
+      <BublinaSTextem class="bublinaStextem" />
+      <div class="menu">
+        <Menu class="welcomemenu" />
+      </div>
+      <welcomeFox class="welcomeFox" />
     </div>
-    <welcomeFox class="welcomeFox" />
   </div>
 </template>
 
 <script>
 import Logo from "../Logo.vue";
 import WelcomeFox from "../WelcomeFox.vue";
-import TextBubble from "../TextBubble.vue";
 import Menu from "../Menu.vue";
 import Headline from "../Headline.vue";
+import BublinaSTextem from "../BublinaSTextem.vue";
+
 export default {
   name: "PGwelcome",
   components: {
     Logo: Logo,
     welcomeFox: WelcomeFox,
-    textBubble: TextBubble,
     Menu: Menu,
     headline: Headline,
-  },
+    BublinaSTextem: BublinaSTextem
+  }
 };
 </script>
 
 <style scoped>
-@media screen and (max-width: 400px) {
+.containerPGwelcome {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 4vh;
+  left: 4vh;
+}
+
+.headline {
+  position: absolute;
+  top: 15vh;
+  left: 4vh;
+  z-index: 1;
+}
+.welcomeFox {
+  position: absolute;
+  top: 55vh;
+  left: 12.1vh;
+}
+
+.bublinaStextem {
+  position: absolute;
+  left: 3.25vh;
+  top: 20vh;
+}
+.menu {
+  position: absolute;
+  left: 15vh;
+  top: 3vh;
+}
+.menu :hover {
+  color: #e26d5c;
+}
+
+@media screen and (min-width: 376px) {
   .containerPGwelcome {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .logo {
     position: absolute;
     top: 4vh;
     left: 4vh;
   }
-
-  .headline {
-    position: absolute;
-    top: 16vh;
-    left: 4vh;
-  }
-  .welcomeFox {
-    position: absolute;
-    top: 55vh;
-    left: 12.1vh;
-  }
-
   p {
-    font-size: 1.3rem;
-    max-width: 270px;
-    text-align: center;
-    position: absolute;
-    top: 31vh;
-    left: 9vh;
-    z-index: 1;
+    font-size: 5rem;
+    max-width: 230vh;
+    flex-shrink: 1;
+    overflow: auto;
   }
 
-  .textBubble {
-    position: absolute;
-    left: 3.25vh;
-    top: 20vh;
-  }
   .welcomemenu {
-    position: absolute;
-    left: 15vh;
-    top: 3vh;
-  }
-  .welcomemenu :hover {
-    color: #e26d5c;
+    font-size: 3.5rem;
   }
 }
 </style>
