@@ -1,9 +1,8 @@
 <template>
   <div class="menu">
     <ul>
-      <li>Přihlášení</li>
-      <li>Registrace</li>
-      <li></li>
+      <li><router-link :to="{ path: '/login' }">Přihlášení</router-link></li>
+      <li><router-link :to="{ path: '/signin' }">Registrece</router-link></li>
     </ul>
   </div>
 </template>
@@ -21,5 +20,8 @@ li {
 }
 ul {
   display: flex;
+}
+a {
+  text-decoration: none;
 }
 </style>

@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "dev": "webpack-dev-server",
     "build": "webpack -d",
     "watch": "webpack -wd"
   },
@@ -17,9 +18,10 @@
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "webpack-dev-server": "^3.11.0"
   }
 }

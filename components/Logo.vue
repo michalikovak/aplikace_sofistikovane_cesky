@@ -1,6 +1,8 @@
 <template>
   <div>
-    <img :src="logo" alt="Fox logo" />
+    <router-link to="/">
+      <img :src="logo" alt="Fox logo" />
+    </router-link>
   </div>
 </template>
 
@@ -17,10 +19,6 @@ export default {
 </script>
 
 <style>
-html {
-  width: 100vh;
-  height: 100vh;
-}
 img {
   width: 10vh;
 }

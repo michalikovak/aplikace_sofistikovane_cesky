@@ -1,9 +1,6 @@
 <template>
   <div id="kontejnersignin">
-    <Logo class="logo" />
-
-    <Menu class="signinmenu" />
-
+    <Hlavicka />
     <div class="signininpt">
       <Input class="firstName" type="text" id="firstName" placeholder="Jméno" />
       <Input
@@ -38,15 +35,13 @@
 </template>
 
 <script>
-import Logo from "../Logo.vue";
-import Menu from "../Menu.vue";
+import Hlavicka from "../Hlavicka.vue";
 import Input from "../Input.vue";
 import Button from "../Button.vue";
 export default {
   name: "PGsignIn",
   components: {
-    Logo: Logo,
-    Menu: Menu,
+    Hlavicka: Hlavicka,
     Input: Input,
     Button: Button,
   },

@@ -49,11 +49,16 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin(),
     new CopyPlugin({
-      patterns: [{ 
-        from: 'src/assets', 
+      patterns: [{
+        from: 'src/assets',
         to: 'assets',
-        noErrorOnMissing: true, 
+        noErrorOnMissing: true,
       }],
     }),
   ],
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: false,
+    port: 9000,
+  },
 };
