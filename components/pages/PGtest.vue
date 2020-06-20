@@ -1,15 +1,18 @@
 <template>
   <div id="kontejnerTest">
-    <Hlavicka2 class="hlavicka2" />
-    <div class="sentences" v-for="test in lesson.test" :key="test.result">
-      <p class="Qstart">{{ test.questionStart }}</p>
-      <!--<p class="option">{{ test.options1 }}</p>-->
-      <select class="select" v-model="options1">
-        <option v-for="word in randomList(lesson.words)" :key="word.word">{{
-          word.word
-        }}</option>
-      </select>
-      <p class="Qend">{{ test.questionEnd }}</p>
+    <Hlavicka2 />
+    <div class="bilepozadi">
+      <div class="sentences" v-for="test in lesson.test" :key="test.result">
+        <span class="Qstart">{{ test.questionStart }}</span>
+        <span
+          ><select class="select" v-model="options1">
+            <option v-for="word in randomList(lesson.words)" :key="word.word">{{
+              word.word
+            }}</option>
+          </select></span
+        >
+        <span class="Qend">{{ test.questionEnd }}</span>
+      </div>
     </div>
     <Button class="btnresults" name="Výsledek" />
   </div>
@@ -47,20 +50,20 @@ export default {
   align-items: center;
 }
 
-.Qstart {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-.option {
-}
-.Qend {
-  padding-top: 0;
-  margin-top: 0;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+.bilepozadi {
+  border-radius: 10px;
+  max-width: 70vw;
+  margin-top: 30px 10px;
+  background-color: white;
 }
 
+.sentences {
+  padding: 10px 0;
+  font-size: 1.15rem;
+}
 .select {
   outline: none;
+  max-height: 4vh;
+  max-width: 30vw;
 }
 </style>

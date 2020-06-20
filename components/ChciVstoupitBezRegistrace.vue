@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "Menu",
+  name: "ChciVstoupitBezRegistrace",
 };
 </script>
 
