@@ -110,56 +110,56 @@ export default [
   },
   {
     lesson: 2,
-    contextParagraph: "Jiří Ovčáček je blb. Nikdy jsem nepochopil proč prezident Zeman, o kterém se sice dá říci, že se občas chová jako despota a považuje Pražský hrad za svoje právoplatné sídlo, přesto mu však nelze upřít přirozenou inteligenci, si jako svého mluvčího vybral zrovna jeho. Ovčáčkovo chování před televizními kamerami je většinou značně afektované, zejména, když se moderátor zeptá na Zemanovo pití alkoholu. Jistě si ještě pamatujete na prezidentovo faux pas v místnosti s korunovačními klenoty, kde se tam motal a málem upadl. Ovčáčkova pofiderní odpověď, že byl prezident nemocen, nikoho nepřesvědčila. Když Ovčáčkovi dojdou argumenty neváhá vůči moderátorovi i přitvrdit. Jeho slovní invektivy, kterými napadá své oponenty, jenom dokreslují jeho až cholerickou povahu. Občas moderátory až obdivuji s jakým flegmatismem jim dokáží čelit. Myslím, že i sám Miloš Zeman by měl mít eminentní zájem na tom, aby se ho co možná nejdříve zbavil. Prezident, coby pragmaticky uvažující člověk, by to měl pochopit. Je ovšem také možné, že Zemanova závislost na Ovčáčkovi může mít jisté latentní příznaky, které nám zůstávají utajeny.",
+    contextParagraph: "Jiří Ovčáček je blb. Nikdy jsem nepochopil proč prezident Zeman, o kterém se sice dá říci, že se občas chová jako <strong>despota</strong> a považuje Pražský hrad za svoje právoplatné sídlo, přesto mu však nelze upřít přirozenou inteligenci, si jako svého mluvčího vybral zrovna jeho. Ovčáčkovo chování před televizními kamerami je většinou značně <strong>afektované</strong>, zejména, když se moderátor zeptá na Zemanovo pití alkoholu. Jistě si ještě pamatujete na prezidentovo <strong>faux pas</strong> v místnosti s korunovačními klenoty, kde se tam motal a málem upadl. Ovčáčkova <strong>pofiderní</strong> odpověď, že byl prezident nemocen, nikoho nepřesvědčila. Když Ovčáčkovi dojdou argumenty neváhá vůči moderátorovi i přitvrdit. Jeho slovní <strong>invektivy</strong>, kterými napadá své oponenty, jenom dokreslují jeho až <strong>cholerickou</strong> povahu. Občas moderátory až obdivuji s jakým <strong>flegmatismem</strong> jim dokáží čelit. Myslím, že i sám Miloš Zeman by měl mít <strong>eminentní</strong> zájem na tom, aby se ho co možná nejdříve zbavil. Prezident, coby <strong>pragmaticky</strong> uvažující člověk, by to měl pochopit. Je ovšem také možné, že Zemanova závislost na Ovčáčkovi může mít jisté <strong>latentní</strong> příznaky, které nám zůstávají utajeny.",
     words: [
       {
         word: "invektiva",
-        meaning: "výpad, slovní nebo písemné napadení",
+        meaning: "<strong>výpad, slovní nebo písemné napadení</strong>",
         context: "Náš syn nikdy nebyl svědkem slovních invektiv, které jsme si s manželem vyměňovali, když jsme ještě žili společně.",
       },
       {
         word: "afektovaný",
-        meaning: "strojený, přehnaný, nepřirozeně se chovající",
+        meaning: "<strong>strojený, přehnaný, nepřirozeně se chovající</strong>",
         context: "Přezdívku 'královna dramat' si vysloužila díky svému afektovanému chování.",
       },
       {
         word: "flegmatik",
-        meaning: "člověk klidný, pomalejší, málo vzrušivý",
+        meaning: "<strong>člověk klidný, pomalejší, málo vzrušivý</strong>",
         context: "Šéf, kterého celý tým milně považoval za flegmatika, začal zuřivě bušit pěstmi do stolu a hlasitě nadávat.",
       },
       {
         word: "faux pas",
-        meaning: "chybné jednání, omyl, nedopatření",
+        meaning: "<strong>chybné jednání, omyl, nedopatření</strong>",
         context: "Místo pocitu ponížení, jsem toto faux pas opět přidal do své ostudné síně slávy.",
       },
       {
         word: "pofidérní",
-        meaning: "pochybný, nedůvěryhodný",
+        meaning: "<strong>pochybný, nedůvěryhodný</strong>",
         context: "Proč dáváš rozhovor do takových pofidérních časopisů?",
       },
       {
         word: "cholerik",
-        meaning: "vznětlivý, výbušný typ člověka",
+        meaning: "<strong>vznětlivý, výbušný typ člověka</strong>",
         context: " Vždycky to byl vznětlivý pruďas, skoro až cholerik.",
       },
       {
         word: "pragmatický",
-        meaning: "věcný, chladně a nezaujatě uvažující, praktický",
+        meaning: "<strong>věcný, chladně a nezaujatě uvažující, praktický</strong>",
         context: "Z pragmatického hlediska není důležité kdo v hádce začal, ale čím byla hádka vyvolaná.",
       },
       {
         word: "eminentní",
-        meaning: "významný, vynikající",
+        meaning: "<strong>významný, vynikající</strong>",
         context: "Vzdát čest také přišlo kolem padesátky eminentních vědců.",
       },
       {
         word: "despota",
-        meaning: "neomezený vládce, tyran; panovačný, krutý člověk",
+        meaning: "<strong>neomezený vládce, tyran; panovačný, krutý člověk</strong>",
         context: "„Jasně, já jsem byl ten tyran, ten despota, co vám všem ubližoval. Tak tos mi přijela na starý kolena říct?“",
       },
       {
         word: "latentní",
-        meaning: "utajený, skrytý, bezpřízakový",
+        meaning: "<strong>utajený, skrytý, bezpřízakový</strong>",
         context: "Helena byla neurotička se sklony k hysterii, latentní schizofrenička.",
       },
     ],
