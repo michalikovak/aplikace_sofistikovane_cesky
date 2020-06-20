@@ -18,6 +18,6 @@ export default {
 
 <style>
 #nadpis {
-  width: 50vh;
+  width: 40vh;
 }
 </style>
