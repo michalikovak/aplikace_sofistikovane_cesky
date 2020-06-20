@@ -1,6 +1,6 @@
 <template>
   <div id="kontejnersignin">
-    <Hlavicka />
+    <Hlavicka class="hlavicka" />
     <div class="signininpt">
       <Input class="firstName" type="text" id="firstName" placeholder="Jméno" />
       <Input
@@ -49,43 +49,31 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (max-width: 400px) {
-  #kontejnersignin {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .logo {
-    position: absolute;
-    top: 4vh;
-    left: 4vh;
-  }
+#kontejnersignin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .signinmenu {
-    position: absolute;
-    left: 15vh;
-    top: 3vh;
-  }
-  .signinmenu :hover {
-    color: #e26d5c;
-  }
-  .signininpt {
-    padding-top: 20vh;
-  }
+.hlavicka :hover {
+  color: #e26d5c;
+}
+.signininpt {
+  padding-top: 20px;
+}
 
-  .firstName,
-  .secondName,
-  .nickName,
-  .Email,
-  .Password,
-  .PasswordAgain {
-    padding: 3vh;
-  }
+.firstName,
+.secondName,
+.nickName,
+.Email,
+.Password,
+.PasswordAgain {
+  padding: 3vh;
+}
 
-  .btnsignin {
-    padding: 3vh;
-  }
+.btnsignin {
+  padding: 3vh;
 }
 </style>

@@ -35,21 +35,14 @@ export default {
 <style scoped>
 @media screen and (max-width: 400px) {
   #kontejnerME {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .logo {
-    position: absolute;
-    top: 4vh;
-    left: 4vh;
   }
   .lessonCompleted {
-    position: relative;
-    left: 6vh;
-    top: 3.5vh;
   }
   .divparagraph {
     width: 47vh;

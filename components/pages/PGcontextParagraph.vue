@@ -33,7 +33,7 @@ export default {
   },*/
   data() {
     return {
-      lesson1: data[0]
+      lesson1: data[0],
     };
   },
   components: {
@@ -41,8 +41,8 @@ export default {
     lessonCompleted: LessonCompleted,
     resultsFox: ResultsFox,
     BublinaSTextem3: BublinaSTextem3,
-    Button: Button
-  }
+    Button: Button,
+  },
 };
 </script>
 
@@ -55,59 +55,30 @@ export default {
   align-items: center;
 }
 .logo {
-  position: absolute;
-  top: 4vh;
-  left: 4vh;
 }
 .lessoncompleted {
-  position: relative;
-  left: 6vh;
-  top: 3.5vh;
 }
 .resultsFox {
-  position: absolute;
-  top: 1vh;
-  left: 1.5vh;
-
-  z-index: 1;
 }
 .BublinaSTextem3 {
-  position: absolute;
-  left: 20vh;
-  top: 0;
 }
 .paragraph {
   border-radius: 10px;
   padding: 10px;
-  position: absolute;
-  top: 40vh;
+
   max-width: 48vh;
   background-color: white;
 }
 
 .CPtext {
   font-size: 1rem;
-  position: absolute;
-  left: 27vh;
-  top: 25vh;
+
   z-index: 1;
 }
 .buttonsCP {
-  position: absolute;
-  top: 137vh;
-  display: flex;
 }
 .meaning,
 .test {
   padding: 0;
-}
-@media screen and (min-width: 376px) {
-  #kontejnerCP {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 }
 </style>
