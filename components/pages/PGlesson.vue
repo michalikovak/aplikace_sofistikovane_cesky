@@ -45,6 +45,6 @@ export default {
 }
 
 .lesson {
-  width: 60vw;
+  width: 17vw;
 }
 </style>
