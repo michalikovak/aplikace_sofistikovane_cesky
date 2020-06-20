@@ -1,7 +1,7 @@
 <template>
   <div id="kontejnerME">
     <Logo class="logo" />
-    <lessonCompleted class="lessonCompleted" />
+    <Hlavicka2 class="hlavicka2" />
     <div class="divparagraph" v-for="word in lesson1words">
       <p class="words" v-html="word.word"><!--{{ word.word }}--></p>
       <p class="meaning" v-html="word.meaning"><!--{{ word.meaning }}--></p>
@@ -13,7 +13,7 @@
 
 <script>
 import Logo from "../Logo.vue";
-import LessonCompleted from "../LessonCompleted.vue";
+import Hlavicka2 from "../Hlavicka2.vue";
 import data from "../../src/data.js";
 import Button from "../Button.vue";
 
@@ -26,7 +26,7 @@ export default {
   },
   components: {
     Logo: Logo,
-    lessonCompleted: LessonCompleted,
+    Hlavicka2: Hlavicka2,
     Button: Button,
   },
 };
@@ -40,10 +40,7 @@ export default {
     justify-content: center;
     align-items: center;
   }
-  .logo {
-  }
-  .lessonCompleted {
-  }
+
   .divparagraph {
     width: 47vh;
     margin-top: 20px;
@@ -55,11 +52,6 @@ export default {
   }
   .meaning {
     font-weight: 400;
-  }
-  .context {
-  }
-
-  .test {
   }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div id="kontejnerCP">
     <Logo class="logo" />
-    <lessonCompleted class="lessoncompleted" />
+    <Hlavicka2 class="hlavicka2" />
     <resultsFox class="resultsFox" />
     <BublinaSTextem3 class="BublinaSTextem3" />
     <p class="paragraph" v-html="lesson1.contextParagraph">
@@ -17,7 +17,7 @@
 
 <script>
 import Logo from "../Logo.vue";
-import LessonCompleted from "../LessonCompleted.vue";
+import Hlavicka2 from "../Hlavicka2.vue";
 import ResultsFox from "../ResultsFox.vue";
 import BublinaSTextem3 from "../BublinaSTextem3.vue";
 import data from "../../src/data.js";
@@ -38,7 +38,7 @@ export default {
   },
   components: {
     Logo: Logo,
-    lessonCompleted: LessonCompleted,
+    Hlavicka2: Hlavicka2,
     resultsFox: ResultsFox,
     BublinaSTextem3: BublinaSTextem3,
     Button: Button,
@@ -54,14 +54,7 @@ export default {
   justify-content: center;
   align-items: center;
 }
-.logo {
-}
-.lessoncompleted {
-}
-.resultsFox {
-}
-.BublinaSTextem3 {
-}
+
 .paragraph {
   border-radius: 10px;
   padding: 10px;
@@ -75,8 +68,7 @@ export default {
 
   z-index: 1;
 }
-.buttonsCP {
-}
+
 .meaning,
 .test {
   padding: 0;

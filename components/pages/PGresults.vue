@@ -1,7 +1,7 @@
 <template>
   <div kontejnerResults>
     <Logo class="logo" />
-    <lessonCompleted class="lessonCompleted" />
+    <Hlavicka2 class="hlavicka2" />
     <resultsFox class="resultsFox" />
 
     <BublinaSTextem2 class="BublinaSTextem2" />
@@ -12,7 +12,7 @@
 
 <script>
 import Logo from "../Logo.vue";
-import LessonCompleted from "../LessonCompleted.vue";
+import Hlavicka2 from "../Hlavicka2.vue";
 import ResultsFox from "../ResultsFox.vue";
 import BublinaSTextem2 from "../BublinaSTextem2.vue";
 import Button from "../Button.vue";
@@ -20,58 +20,26 @@ export default {
   name: "PGresults",
   components: {
     Logo: Logo,
-    lessonCompleted: LessonCompleted,
+    Hlavicka2: Hlavicka2,
     resultsFox: ResultsFox,
     BublinaSTextem2: BublinaSTextem2,
-    Button: Button
-  }
+    Button: Button,
+  },
 };
 </script>
 
 <style scoped>
-.logo {
+#kontejnerResults {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top: 4vh;
-  left: 4vh;
-}
-.lessonCompleted {
-  position: absolute;
-  left: 16vh;
-  top: 3.5vh;
-}
-
-.butonik {
-  position: absolute;
-  top: 90vh;
-  left: 17vh;
-}
-.resultsFox {
-  position: absolute;
-  top: 42vh;
-  left: 16vh;
-}
-
-.BublinaSTextem2 {
-  position: absolute;
-  top: 15vh;
-  left: 3vh;
+  left: 36.5%;
 }
 
 p {
   font-size: 1.2rem;
-  position: absolute;
-  left: 16vh;
-  top: 46ch;
-}
-@media screen and (min-width: 376px) {
-  #kontejnerResults {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 36.5%;
-  }
 }
 </style>

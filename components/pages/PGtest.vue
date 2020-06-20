@@ -1,7 +1,7 @@
 <template>
   <div id="kontejnerTest">
     <Logo class="logo" />
-    <lessonCompleted class="lessonCompleted" />
+    <Hlavicka2 class="hlavicka2" />
     <div class="sentences" v-for="test in lesson1test">
       <p class="Qstart">{{ test.questionStart }}</p>
       <!--<p class="option">{{ test.options1 }}</p>-->
@@ -25,7 +25,7 @@
 
 <script>
 import Logo from "../Logo.vue";
-import LessonCompleted from "../LessonCompleted.vue";
+import Hlavicka2 from "../Hlavicka2.vue";
 import data from "../../src/data.js";
 import Button from "../Button.vue";
 export default {
@@ -37,59 +37,34 @@ export default {
   },
   components: {
     Logo: Logo,
-    lessonCompleted: LessonCompleted,
+    Hlavicka2: Hlavicka2,
     Button: Button,
   },
 };
 </script>
 
 <style scoped>
-@media screen and (max-width: 400px) {
-  #kontejnerTest {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .logo {
-    position: absolute;
-    top: 4vh;
-    left: 4vh;
-  }
-  .lessonCompleted {
-    position: relative;
-    left: 16vh;
-    top: 3.5vh;
-  }
+#kontejnerTest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .btnresults {
-  }
-  .sentences {
-    position: relative;
-    top: 10vh;
-    left: 4vh;
-  }
-  .Qstart {
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-  .option {
-  }
-  .Qend {
-    padding-top: 0;
-    margin-top: 0;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-  }
-  .btnresults {
-    position: absolute;
-    top: 220vh;
-    left: 15vh;
-  }
+.Qstart {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.option {
+}
+.Qend {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
 
-  .select {
-    outline: none;
-  }
+.select {
+  outline: none;
 }
 </style>
