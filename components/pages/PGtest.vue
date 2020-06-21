@@ -9,7 +9,11 @@
       >
         <span class="Qstart">{{ test.questionStart }}</span>
         <span
-          ><select class="select" v-model="answers[i].value">
+          ><select
+            :class="{ isWrong: isWrong[i] }"
+            class="select"
+            v-model="answers[i].value"
+          >
             <option v-for="word in randomList(lesson.words)" :key="word.word">{{
               word.word
             }}</option>
@@ -18,8 +22,14 @@
         <span class="Qend">{{ test.questionEnd }}</span>
       </div>
     </div>
-    <button class="btnresults" @click="getResult">Výsledek</button>
+
     <GoodJobFox v-if="showResult" :correct="correct" :count="answers.length" />
+    <button class="btnresults" v-if="!showResult" @click="getResult">
+      Výsledek
+    </button>
+    <button class="btnzkustoznova" v-else @click="resetTest">
+      Zkus to znova
+    </button>
   </div>
 </template>
 
@@ -36,6 +46,7 @@ export default {
       answers: [],
       showResult: false,
       correct: 0,
+      isWrong: [],
     };
   },
   components: {
@@ -49,20 +60,27 @@ export default {
     },
     getResult: function() {
       let correct = 0;
-      this.answers.forEach((answer) => {
-        if (answer.result === answer.value) {
+      this.isWrong = [];
+      this.answers.forEach((answer, i) => {
+        this.isWrong[i] = answer.result !== answer.value;
+        if (!this.isWrong[i]) {
           correct += 1;
         }
       });
       this.correct = correct;
       this.showResult = true;
     },
+    resetTest: function() {
+      this.showResult = false;
+      const id = parseInt(this.$route.params.id, 10);
+      const lesson = data.find((liska) => liska.lesson === id);
+      this.answers = lesson.test.map((a) => ({ result: a.result }));
+      this.isWrong = [];
+      this.lesson = lesson;
+    },
   },
   created: function() {
-    const id = parseInt(this.$route.params.id, 10);
-    const lesson = data.find((liska) => liska.lesson === id);
-    this.answers = lesson.test.map((a) => ({ result: a.result }));
-    this.lesson = lesson;
+    this.resetTest();
   },
 };
 </script>
@@ -92,7 +110,8 @@ export default {
   max-width: 30vw;
 }
 
-.btnresults {
+.btnresults,
+.btnzkustoznova {
   width: 17vh;
   height: 6vh;
   background: #7e3b1c;
@@ -101,5 +120,8 @@ export default {
   border: 1px solid #7e3b1c;
   margin-top: 20px;
   outline: none;
+}
+.isWrong {
+  background-color: #e26d5c;
 }
 </style>
