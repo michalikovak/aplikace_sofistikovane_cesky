@@ -5,7 +5,7 @@
 <script>
 export default {
   name: "Button",
-  props: ["name"],
+  props: ["name"]
 };
 </script>
 
@@ -16,8 +16,17 @@ export default {
   background: #7e3b1c;
   color: white;
   border-radius: 12px;
-  border: 1px solid #7e3b1c;
+  border: none;
   margin-top: 20px;
   outline: none;
+}
+
+.Signin:hover {
+  color: #e26d5c !important;
+  background: #ffffff;
+  border: 4px solid #e26d5c !important;
+  border-radius: 15px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
 }
 </style>

@@ -2,18 +2,8 @@
   <div id="kontejnerLogIn">
     <Hlavicka />
     <div class="inputLI">
-      <Input
-        class="inptName"
-        type="text"
-        id="usernameLI"
-        placeholder="Uživatelské jméno"
-      />
-      <Input
-        class="inptPassword"
-        type="password"
-        id="passwordLI"
-        placeholder="Heslo"
-      />
+      <Input class="inptName" type="text" id="usernameLI" placeholder="Uživatelské jméno" />
+      <Input class="inptPassword" type="password" id="passwordLI" placeholder="Heslo" />
     </div>
     <ChciVstoupitBezRegistrace class="loginmenu" />
     <Button class="buttonLI" name="Přihlásit se" />
@@ -32,8 +22,8 @@ export default {
     Input: Input,
     Hlavicka: Hlavicka,
     Button: Button,
-    ChciVstoupitBezRegistrace: ChciVstoupitBezRegistrace,
-  },
+    ChciVstoupitBezRegistrace: ChciVstoupitBezRegistrace
+  }
 };
 </script>
 
@@ -50,10 +40,6 @@ export default {
   padding: 3vh;
 }
 
-.hlavicka {
-  margin-bottom: 18vh;
-}
-
 .loginmenu :hover {
   color: #e26d5c;
 }
@@ -65,8 +51,5 @@ ul {
 li {
   width: 250px;
   padding: 30px;
-}
-.liregistration :hover {
-  color: #e26d5c;
 }
 </style>

@@ -3,6 +3,7 @@
     <Hlavicka2 class="hlavicka2" />
     <div id="linksButton">
       <Link
+        class="sirokyButtonky"
         v-for="lesson in data"
         :to="{ path: `/lesson/${lesson.lesson}` }"
         :key="lesson.lesson"
@@ -23,14 +24,14 @@ export default {
   name: "PGlesson",
   data() {
     return {
-      data,
+      data
     };
   },
   components: {
     Hlavicka2: Hlavicka2,
     Link: Link,
-    welcomeFox: WelcomeFox,
-  },
+    welcomeFox: WelcomeFox
+  }
 };
 </script>
 
@@ -50,7 +51,7 @@ export default {
   justify-content: center;
 }
 
-.lesson {
-  width: 17vw;
+.sirokyButtonky {
+  padding: 0 20px;
 }
 </style>

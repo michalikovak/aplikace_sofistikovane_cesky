@@ -13,8 +13,8 @@ export default {
   name: "PGwelcome",
   components: {
     Logo: Logo,
-    Menu: Menu,
-  },
+    Menu: Menu
+  }
 };
 </script>
 

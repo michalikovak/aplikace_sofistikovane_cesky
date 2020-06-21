@@ -19,8 +19,8 @@ export default {
     welcomeFox: WelcomeFox,
     headline: Headline,
     BublinaSTextem: BublinaSTextem,
-    Hlavicka: Hlavicka,
-  },
+    Hlavicka: Hlavicka
+  }
 };
 </script>
 
@@ -34,5 +34,10 @@ export default {
 
 .menu :hover {
   color: #e26d5c;
+}
+
+.bublinaStextem {
+  height: 44vh;
+  margin-top: 3vh;
 }
 </style>
