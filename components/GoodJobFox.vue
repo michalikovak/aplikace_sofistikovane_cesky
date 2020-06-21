@@ -1,7 +1,7 @@
 <template>
   <div id="kontejnerResults">
     <div class="liskaMluvi">
-      <img :src="resultsFox" alt="ResultFox" class="resultFox" />
+      <animace />
       <img id="BublinaSTextem2" :src="BublinaSTextem2" alt="Text Bubble" />
     </div>
     <p>❤️ Máš správně {{ correct }} z {{ count }} ❤️️</p>
@@ -10,15 +10,18 @@
 
 <script>
 import BublinaSTextem2 from "../assets/img/BublinaSTextem2.png";
-import resultsFox from "../assets/img/resultsFox.png";
+import animace from "../components/animace.vue";
+
 export default {
   name: "GoodJobFox",
   props: ["correct", "count"],
   data() {
     return {
-      BublinaSTextem2,
-      resultsFox
+      BublinaSTextem2
     };
+  },
+  components: {
+    animace
   }
 };
 </script>
@@ -37,6 +40,13 @@ p {
   margin: 30px 0 20px 0px;
   max-width: 700px;
   font-size: 20px;
-  background-color: white;
+}
+
+.liskaMluvi {
+  display: flex;
+}
+
+#BublinaSTextem2 {
+  width: 10px;
 }
 </style>

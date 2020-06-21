@@ -18,6 +18,7 @@ export default {
 
 <style>
 #BublinaSTextem2 {
-  width: 50vh;
+  width: 15vw;
+  height: 25vh;
 }
 </style>

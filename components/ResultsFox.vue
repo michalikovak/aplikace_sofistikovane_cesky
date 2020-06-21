@@ -10,14 +10,14 @@ export default {
   name: "App",
   data() {
     return {
-      resultsFox,
+      resultsFox
     };
-  },
+  }
 };
 </script>
 
 <style>
 .resultFox {
-  width: 18vh;
+  width: 25vh;
 }
 </style>
