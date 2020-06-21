@@ -1,6 +1,6 @@
 <template>
   <div id="kontejnerResults">
-    <p>Dobře {{ correct }}/{{ count }}</p>
+    <p>❤️ Máš správně {{ correct }} z {{ count }} ❤️️</p>
     <img id="BublinaSTextem2" :src="BublinaSTextem2" alt="Text Bubble" />
     <img :src="resultsFox" alt="ResultFox" class="resultFox" />
   </div>

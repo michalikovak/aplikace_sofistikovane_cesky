@@ -43,7 +43,6 @@ export default {
 }
 
 .divparagraph {
-  width: 47vh;
   margin-top: 20px;
 }
 .words {
@@ -53,5 +52,9 @@ export default {
 }
 .meaning {
   font-weight: 400;
+}
+
+.linkButton {
+  margin: 40px 0 50px 0;
 }
 </style>

@@ -94,9 +94,10 @@ export default {
 }
 
 .bilepozadi {
-  border-radius: 10px;
+  border-radius: 15px;
   max-width: 70vw;
-  margin-top: 30px 10px;
+  padding: 30px;
+  margin: 30px 0 20px 0;
   background-color: white;
 }
 
@@ -118,10 +119,10 @@ export default {
   color: white;
   border-radius: 12px;
   border: 1px solid #7e3b1c;
-  margin-top: 20px;
+  margin: 40px 0 50px 0;
   outline: none;
 }
 .isWrong {
-  background-color: #e26d5c;
+  box-shadow: 0 0 10px rgba(255, 115, 0, 0.822);
 }
 </style>

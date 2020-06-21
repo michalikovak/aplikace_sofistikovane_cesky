@@ -50,9 +50,9 @@ export default {
 }
 
 .paragraph {
-  border-radius: 10px;
-  padding: 10px;
-  margin-top: 50px;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px 0 20px 0px;
   max-width: 700px;
   width: 90%;
   font-size: 18px;
@@ -65,6 +65,7 @@ export default {
 }
 .linkButton {
   display: flex;
+  margin: 40px 0 50px 0;
 }
 
 .meaning,
