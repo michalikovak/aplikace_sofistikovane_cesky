@@ -30,6 +30,11 @@ export default {
 }
 
 p {
-  font-size: 1.5rem;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 30px 0 20px 0px;
+  max-width: 700px;
+  font-size: 20px;
+  background-color: white;
 }
 </style>

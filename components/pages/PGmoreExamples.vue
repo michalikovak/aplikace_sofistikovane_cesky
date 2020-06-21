@@ -43,17 +43,33 @@ export default {
 }
 
 .divparagraph {
-  margin-top: 20px;
+  width: 50vw;
+  border-radius: 15px;
+  margin: 30px 0 20px 0px;
+  max-width: 700px;
+  width: 90%;
+  padding: 0;
+  font-size: 18px;
+  background-color: white;
 }
 .words {
   text-transform: uppercase;
   font-size: 1.25rem;
-  color: #e26d5c;
+  color: #7e3b1c;
+  margin: 10px;
+  font-weight: 700;
+  padding: 0;
 }
 .meaning {
-  font-weight: 400;
+  color: #e26d5c;
+  margin: 10px;
+  padding: 0;
 }
 
+.context {
+  margin: 10px;
+  padding: 0;
+}
 .linkButton {
   margin: 40px 0 50px 0;
 }

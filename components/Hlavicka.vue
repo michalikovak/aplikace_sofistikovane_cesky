@@ -10,11 +10,11 @@ import Logo from "./Logo.vue";
 import Menu from "./Menu.vue";
 
 export default {
-  name: "PGwelcome",
+  name: "Hlavicka",
   components: {
     Logo: Logo,
-    Menu: Menu
-  }
+    Menu: Menu,
+  },
 };
 </script>
 

@@ -19,8 +19,8 @@ export default {
     welcomeFox: WelcomeFox,
     headline: Headline,
     BublinaSTextem: BublinaSTextem,
-    Hlavicka: Hlavicka
-  }
+    Hlavicka: Hlavicka,
+  },
 };
 </script>
 
@@ -31,7 +31,9 @@ export default {
   justify-content: center;
   align-items: center;
 }
-
+.containerPGwelcome .hlavicka {
+  padding-left: 18px;
+}
 .menu :hover {
   color: #e26d5c;
 }

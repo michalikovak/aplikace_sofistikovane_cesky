@@ -10,7 +10,7 @@ import Logo from "./Logo.vue";
 import Headline from "./Headline.vue";
 
 export default {
-  name: "PGwelcome",
+  name: "Hlavicka2",
   components: {
     Logo: Logo,
     Headline: Headline,
@@ -22,11 +22,6 @@ export default {
 .hlavicka2 {
   display: flex;
   align-items: center;
-  justify-content: center;
   padding-top: 20px;
-  max-width: 700px;
-  width: 90%;
-}
-.headline2 {
 }
 </style>
