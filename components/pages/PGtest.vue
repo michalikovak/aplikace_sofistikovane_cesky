@@ -9,7 +9,11 @@
       >
         <span class="Qstart">{{ test.questionStart }}</span>
         <span
-          ><select class="select" v-model="answers[i].value">
+          ><select
+            :class="{ isWrong: isWrong[i] }"
+            class="select"
+            v-model="answers[i].value"
+          >
             <option v-for="word in randomList(lesson.words)" :key="word.word">{{
               word.word
             }}</option>
@@ -18,8 +22,9 @@
         <span class="Qend">{{ test.questionEnd }}</span>
       </div>
     </div>
-    <button class="btnresults" @click="getResult">Výsledek</button>
+
     <GoodJobFox v-if="showResult" :correct="correct" :count="answers.length" />
+    <button class="btnresults" @click="getResult">Výsledek</button>
   </div>
 </template>
 
@@ -36,6 +41,7 @@ export default {
       answers: [],
       showResult: false,
       correct: 0,
+      isWrong: [],
     };
   },
   components: {
@@ -49,8 +55,10 @@ export default {
     },
     getResult: function() {
       let correct = 0;
-      this.answers.forEach((answer) => {
-        if (answer.result === answer.value) {
+      this.isWrong = [];
+      this.answers.forEach((answer, i) => {
+        this.isWrong[i] = answer.result !== answer.value;
+        if (!this.isWrong[i]) {
           correct += 1;
         }
       });
@@ -101,5 +109,8 @@ export default {
   border: 1px solid #7e3b1c;
   margin-top: 20px;
   outline: none;
+}
+.isWrong {
+  background-color: #e26d5c;
 }
 </style>
