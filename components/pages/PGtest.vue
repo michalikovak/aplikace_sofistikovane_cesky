@@ -24,7 +24,12 @@
     </div>
 
     <GoodJobFox v-if="showResult" :correct="correct" :count="answers.length" />
-    <button class="btnresults" @click="getResult">Výsledek</button>
+    <button class="btnresults" v-if="!showResult" @click="getResult">
+      Výsledek
+    </button>
+    <button class="btnzkustoznova" v-else @click="resetTest">
+      Zkus to znova
+    </button>
   </div>
 </template>
 
@@ -65,12 +70,17 @@ export default {
       this.correct = correct;
       this.showResult = true;
     },
+    resetTest: function() {
+      this.showResult = false;
+      const id = parseInt(this.$route.params.id, 10);
+      const lesson = data.find((liska) => liska.lesson === id);
+      this.answers = lesson.test.map((a) => ({ result: a.result }));
+      this.isWrong = [];
+      this.lesson = lesson;
+    },
   },
   created: function() {
-    const id = parseInt(this.$route.params.id, 10);
-    const lesson = data.find((liska) => liska.lesson === id);
-    this.answers = lesson.test.map((a) => ({ result: a.result }));
-    this.lesson = lesson;
+    this.resetTest();
   },
 };
 </script>
@@ -100,7 +110,8 @@ export default {
   max-width: 30vw;
 }
 
-.btnresults {
+.btnresults,
+.btnzkustoznova {
   width: 17vh;
   height: 6vh;
   background: #7e3b1c;

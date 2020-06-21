@@ -55,6 +55,7 @@ export default {
   margin-top: 50px;
   max-width: 700px;
   width: 90%;
+  font-size: 18px;
   background-color: white;
 }
 
@@ -62,9 +63,13 @@ export default {
   font-size: 1rem;
   z-index: 1;
 }
+.linkButton {
+  display: flex;
+}
 
 .meaning,
 .test {
   padding: 0;
+  margin: 15px 45px;
 }
 </style>
