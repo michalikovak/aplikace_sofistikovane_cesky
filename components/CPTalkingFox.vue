@@ -1,7 +1,7 @@
 <template>
   <div class="box">
-    <img :src="resultsFox" alt="ResultFox" class="resultFox" />
     <img id="BublinaSTextem3" :src="BublinaSTextem3" alt="Text Bubble" />
+    <img :src="resultsFox" alt="ResultFox" class="resultFox" />
   </div>
 </template>
 
@@ -13,9 +13,9 @@ export default {
   data() {
     return {
       resultsFox,
-      BublinaSTextem3,
+      BublinaSTextem3
     };
-  },
+  }
 };
 </script>
 

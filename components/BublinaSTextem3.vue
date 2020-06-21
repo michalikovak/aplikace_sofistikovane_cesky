@@ -10,9 +10,9 @@ export default {
   name: "BublinaSTextem3",
   data() {
     return {
-      BublinaSTextem3,
+      BublinaSTextem3
     };
-  },
+  }
 };
 </script>
 

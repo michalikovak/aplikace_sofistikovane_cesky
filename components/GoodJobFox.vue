@@ -1,8 +1,10 @@
 <template>
   <div id="kontejnerResults">
+    <div class="liskaMluvi">
+      <img :src="resultsFox" alt="ResultFox" class="resultFox" />
+      <img id="BublinaSTextem2" :src="BublinaSTextem2" alt="Text Bubble" />
+    </div>
     <p>❤️ Máš správně {{ correct }} z {{ count }} ❤️️</p>
-    <img id="BublinaSTextem2" :src="BublinaSTextem2" alt="Text Bubble" />
-    <img :src="resultsFox" alt="ResultFox" class="resultFox" />
   </div>
 </template>
 
@@ -15,18 +17,18 @@ export default {
   data() {
     return {
       BublinaSTextem2,
-      resultsFox,
+      resultsFox
     };
-  },
+  }
 };
 </script>
 
 <style>
 #kontejnerResults {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 p {

@@ -52,6 +52,6 @@ export default {
 }
 
 .sirokyButtonky {
-  padding: 0 20px;
+  padding: 0 70px;
 }
 </style>
