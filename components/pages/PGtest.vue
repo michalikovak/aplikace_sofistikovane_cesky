@@ -99,6 +99,7 @@ export default {
   padding: 30px;
   margin: 30px 0 20px 0;
   background-color: white;
+  text-align: left;
 }
 
 .sentences {
@@ -123,6 +124,7 @@ export default {
   outline: none;
 }
 .isWrong {
-  box-shadow: 0 0 10px rgba(255, 115, 0, 0.822);
+  /*box-shadow: 0 0 10px rgba(255, 115, 0, 0.822);*/
+  background-color: #e26d5c;
 }
 </style>

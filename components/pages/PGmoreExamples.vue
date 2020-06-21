@@ -51,6 +51,7 @@ export default {
   padding: 0;
   font-size: 18px;
   background-color: white;
+  text-align: left;
 }
 .words {
   text-transform: uppercase;
@@ -71,6 +72,6 @@ export default {
   padding: 0;
 }
 .linkButton {
-  margin: 40px 0 50px 0;
+  margin: 30px 0 50px 0;
 }
 </style>

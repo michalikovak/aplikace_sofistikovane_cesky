@@ -17,12 +17,12 @@ export default {
   props: ["correct", "count"],
   data() {
     return {
-      BublinaSTextem2
+      BublinaSTextem2,
     };
   },
   components: {
-    animace
-  }
+    animace,
+  },
 };
 </script>
 
@@ -36,7 +36,6 @@ export default {
 
 p {
   border-radius: 15px;
-  padding: 30px;
   margin: 30px 0 20px 0px;
   max-width: 700px;
   font-size: 20px;

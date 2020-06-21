@@ -57,6 +57,7 @@ export default {
   width: 90%;
   font-size: 18px;
   background-color: white;
+  text-align: left;
 }
 
 .CPtext {

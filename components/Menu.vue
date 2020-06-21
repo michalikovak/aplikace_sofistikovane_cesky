@@ -24,4 +24,7 @@ ul {
 a {
   text-decoration: none;
 }
+.menu a:hover {
+  color: #e26d5c;
+}
 </style>
