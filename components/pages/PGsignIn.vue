@@ -3,32 +3,12 @@
     <Hlavicka class="hlavicka" />
     <div class="signininpt">
       <Input class="firstName" type="text" id="firstName" placeholder="Jméno" />
-      <Input
-        class="secondName"
-        type="text"
-        id="secondName"
-        placeholder="Příjmení"
-      />
-      <Input
-        class="nickName"
-        type="text"
-        id="nickName"
-        placeholder="Přezdívka"
-      />
+      <Input class="secondName" type="text" id="secondName" placeholder="Příjmení" />
+      <Input class="nickName" type="text" id="nickName" placeholder="Přezdívka" />
       <!--nejsme si jiste type = text-->
       <Input class="Email" type="email" id="Email" placeholder="@" required />
-      <Input
-        class="Password"
-        type="password"
-        id="Password"
-        placeholder="Heslo"
-      />
-      <Input
-        class="PasswordAgain"
-        type="password"
-        id="PasswordAgain"
-        placeholder="Heslo"
-      />
+      <Input class="Password" type="password" id="Password" placeholder="Heslo" />
+      <Input class="PasswordAgain" type="password" id="PasswordAgain" placeholder="Heslo" />
     </div>
     <Button class="btnsignin" name="Registrace" />
   </div>
@@ -43,8 +23,8 @@ export default {
   components: {
     Hlavicka: Hlavicka,
     Input: Input,
-    Button: Button,
-  },
+    Button: Button
+  }
 };
 </script>
 
@@ -73,3 +53,5 @@ export default {
   padding: 3vh;
 }
 </style>
+
+
