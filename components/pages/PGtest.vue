@@ -123,6 +123,15 @@ export default {
   margin: 40px 0 50px 0;
   outline: none;
 }
+.btnresults:hover,
+.btnzkustoznova:hover {
+  color: #e26d5c !important;
+  background: #ffffff;
+  border: 4px solid #e26d5c !important;
+  border-radius: 15px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
 .isWrong {
   /*box-shadow: 0 0 10px rgba(255, 115, 0, 0.822);*/
   background-color: #e26d5c;

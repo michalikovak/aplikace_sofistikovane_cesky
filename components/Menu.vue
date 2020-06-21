@@ -2,7 +2,7 @@
   <div class="menu">
     <ul>
       <li><router-link :to="{ path: '/login' }">Přihlášení</router-link></li>
-      <li><router-link :to="{ path: '/signin' }">Registrece</router-link></li>
+      <li><router-link :to="{ path: '/signin' }">Registrace</router-link></li>
     </ul>
   </div>
 </template>

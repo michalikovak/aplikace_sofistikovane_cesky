@@ -3,7 +3,6 @@
     <Hlavicka2 class="hlavicka2" />
     <resultsFox class="resultsFox" />
     <BublinaSTextem2 class="BublinaSTextem2" />
-    <p>Měl jsi dobře 9/10</p>
     <Button class="butonik" name="Menu" />
   </div>
 </template>
@@ -32,9 +31,5 @@ export default {
   align-items: center;
   position: absolute;
   left: 36.5%;
-}
-
-p {
-  font-size: 1.2rem;
 }
 </style>
