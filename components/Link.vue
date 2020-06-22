@@ -11,7 +11,7 @@ export default {
 
 <style scoped>
 .link {
-  width: 17vh;
+  width: 12vw;
   height: 6vh;
   background: #7e3b1c;
   color: white;
@@ -22,6 +22,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 16px;
 }
 
 .link:hover {
@@ -30,5 +31,6 @@ export default {
   border: 4px solid #e26d5c !important;
   border-radius: 15px;
   transition: all 0.3s ease 0s;
+  font-size: 16px;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="containerPGwelcome">
     <Hlavicka />
-    <headline />
+    <headlineWelcome />
     <BublinaSTextem class="bublinaStextem" />
     <welcomeFox />
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 import WelcomeFox from "../WelcomeFox.vue";
-import Headline from "../Headline.vue";
+import HeadlineWelcome from "../HeadlineWelcome.vue";
 import BublinaSTextem from "../BublinaSTextem.vue";
 import Hlavicka from "../Hlavicka.vue";
 
@@ -17,7 +17,7 @@ export default {
   name: "PGwelcome",
   components: {
     welcomeFox: WelcomeFox,
-    headline: Headline,
+    headlineWelcome: HeadlineWelcome,
     BublinaSTextem: BublinaSTextem,
     Hlavicka: Hlavicka,
   },
