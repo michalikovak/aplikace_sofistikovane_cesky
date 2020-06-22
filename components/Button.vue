@@ -38,6 +38,7 @@ export default {
 @media screen and (max-width: 600px) {
   .Signin {
     min-width: 120px;
+    font-size: 14px;
   }
 }
 </style>

@@ -141,6 +141,7 @@ export default {
   .btnresults,
   .btnzkustoznova {
     min-width: 120px;
+    font-size: 14px;
   }
 }
 </style>

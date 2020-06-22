@@ -33,4 +33,10 @@ export default {
   transition: all 0.3s ease 0s;
   font-size: 16px;
 }
+
+@media screen and (max-width: 600px) {
+  .link {
+    font-size: 14px;
+  }
+}
 </style>
