@@ -74,4 +74,11 @@ export default {
   padding: 0;
   margin: 15px 45px;
 }
+
+@media screen and (max-width: 600px) {
+  .meaning,
+  .test {
+    min-width: 120px;
+  }
+}
 </style>
