@@ -37,6 +37,7 @@ export default {
 @media screen and (max-width: 600px) {
   .link {
     font-size: 14px;
+    min-width: 140px;
   }
 }
 </style>
