@@ -1,5 +1,5 @@
 <template>
-  <div class="box">
+  <div class="liskaMluvi2">
     <img id="BublinaSTextem3" :src="BublinaSTextem3" alt="Text Bubble" />
     <animace />
   </div>
@@ -22,12 +22,22 @@ export default {
 </script>
 
 <style>
-.box {
+.liskaMluvi2 {
   display: flex;
   margin-top: 20px;
 }
 
 #BublinaSTextem3 {
-  width: 33vh;
+  min-width: 300px;
+  min-height: 250px;
+}
+
+@media screen and (max-width: 600px) {
+  .liskaMluvi2 {
+    flex-direction: column;
+  }
+  #BublinaSTextem3 {
+    margin-bottom: 20px;
+  }
 }
 </style>

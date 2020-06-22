@@ -5,7 +5,7 @@
 <script>
 export default {
   name: "Button",
-  props: ["name"]
+  props: ["name"],
 };
 </script>
 
@@ -28,5 +28,11 @@ export default {
   border-radius: 15px;
   display: inline-block;
   transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 600px) {
+  .Signin {
+    min-width: 100px;
+  }
 }
 </style>

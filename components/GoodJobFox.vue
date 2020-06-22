@@ -43,9 +43,18 @@ p {
 
 .liskaMluvi {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #BublinaSTextem2 {
-  width: 10px;
+  min-width: 250px;
+}
+@media screen and (max-width: 600px) {
+  .liskaMluvi {
+    flex-direction: column-reverse;
+  }
+  #BublinaSTextem2 {
+    margin-bottom: 40px;
+  }
 }
 </style>
