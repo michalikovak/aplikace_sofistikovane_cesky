@@ -1,15 +1,13 @@
 <template>
   <div>
-    <router-link :to="{ path: '/lessons' }">
-      <img id="nadpis" :src="nadpis" alt="Headline"
-    /></router-link>
+    <img id="nadpis" :src="nadpis" alt="Headline" />
   </div>
 </template>
 
 <script>
 import nadpis from "../assets/img/nadpis.png";
 export default {
-  name: "Headline",
+  name: "HeadlineWelcome",
   data() {
     return {
       nadpis,
@@ -20,6 +18,6 @@ export default {
 
 <style>
 #nadpis {
-  width: 40vh;
+  min-width: 30vw;
 }
 </style>

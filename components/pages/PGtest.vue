@@ -113,7 +113,7 @@ export default {
 
 .btnresults,
 .btnzkustoznova {
-  width: 17vh;
+  width: 12vw;
   height: 6vh;
   background: #7e3b1c;
   color: white;
@@ -121,6 +121,7 @@ export default {
   border: 1px solid #7e3b1c;
   margin: 40px 0 50px 0;
   outline: none;
+  font-size: 16px;
 }
 .btnresults:hover,
 .btnzkustoznova:hover {
@@ -130,6 +131,7 @@ export default {
   border-radius: 15px;
   display: inline-block;
   transition: all 0.3s ease 0s;
+  font-size: 16px;
 }
 .isWrong {
   background-color: #e26d5c;
