@@ -16,7 +16,7 @@
       />
     </div>
     <ChciVstoupitBezRegistrace class="loginmenu" />
-    <Button class="buttonLI" name="Přihlášení" />
+    <Button class="buttonLI" name="Přihlásit se" />
   </div>
 </template>
 
