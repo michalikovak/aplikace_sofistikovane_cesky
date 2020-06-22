@@ -22,7 +22,6 @@
         <span class="Qend">{{ test.questionEnd }}</span>
       </div>
     </div>
-
     <GoodJobFox v-if="showResult" :correct="correct" :count="answers.length" />
     <button class="btnresults" v-if="!showResult" @click="getResult">
       Výsledek
