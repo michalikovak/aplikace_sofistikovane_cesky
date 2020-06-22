@@ -27,7 +27,7 @@ import Button from "../Button.vue";
 import ChciVstoupitBezRegistrace from "../ChciVstoupitBezRegistrace.vue";
 
 export default {
-  name: "LogIn",
+  name: "PGLogIn",
   components: {
     Input: Input,
     Hlavicka: Hlavicka,

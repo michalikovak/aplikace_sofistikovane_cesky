@@ -5,13 +5,13 @@
 <script>
 export default {
   name: "Link",
-  props: ["name", "to"]
+  props: ["name", "to"],
 };
 </script>
 
 <style scoped>
 .link {
-  width: 17vh; /*prepis na pixely i v buttons, mozna udelej 2 komponenty na buttonik - malej a velkej*/
+  width: 17vh;
   height: 6vh;
   background: #7e3b1c;
   color: white;

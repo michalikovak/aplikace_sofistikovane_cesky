@@ -1,8 +1,8 @@
 <template>
   <div kontejnerResults>
-    <Hlavicka2 class="hlavicka2" />
-    <resultsFox class="resultsFox" />
-    <BublinaSTextem2 class="BublinaSTextem2" />
+    <Hlavicka2 />
+    <resultsFox />
+    <BublinaSTextem2 />
     <Button class="butonik" name="Menu" />
   </div>
 </template>
