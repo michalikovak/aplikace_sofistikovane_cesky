@@ -1,9 +1,9 @@
 <template>
   <div class="containerPGwelcome">
     <Hlavicka />
-    <headline class="headline" />
+    <headline />
     <BublinaSTextem class="bublinaStextem" />
-    <welcomeFox class="welcomeFox" />
+    <welcomeFox />
   </div>
 </template>
 

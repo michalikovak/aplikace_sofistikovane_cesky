@@ -11,8 +11,6 @@
 
 <script>
 export default {
-  name: "App",
+  name: "SignIn",
 };
 </script>
-
-<style></style>

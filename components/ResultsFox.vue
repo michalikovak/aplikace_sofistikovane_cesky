@@ -7,12 +7,12 @@
 <script>
 import resultsFox from "../assets/img/resultsFox.png";
 export default {
-  name: "App",
+  name: "ResultsFox",
   data() {
     return {
-      resultsFox
+      resultsFox,
     };
-  }
+  },
 };
 </script>
 

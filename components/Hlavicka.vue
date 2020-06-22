@@ -1,7 +1,7 @@
 <template>
   <div class="hlavicka">
-    <Logo class="logo" />
-    <Menu class="welcomemenu" />
+    <Logo />
+    <Menu />
   </div>
 </template>
 

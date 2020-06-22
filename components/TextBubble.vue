@@ -18,6 +18,6 @@ export default {
 
 <style>
 #textBubble {
-  width: 50vh;
+  width: 50vw;
 }
 </style>

@@ -48,6 +48,7 @@ p {
 
 #BublinaSTextem2 {
   min-width: 250px;
+  min-height: 220px;
 }
 @media screen and (max-width: 600px) {
   .liskaMluvi {

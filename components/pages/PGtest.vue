@@ -132,7 +132,13 @@ export default {
   transition: all 0.3s ease 0s;
 }
 .isWrong {
-  /*box-shadow: 0 0 10px rgba(255, 115, 0, 0.822);*/
   background-color: #e26d5c;
+}
+
+@media screen and (max-width: 600px) {
+  .btnresults,
+  .btnzkustoznova {
+    min-width: 150px;
+  }
 }
 </style>
