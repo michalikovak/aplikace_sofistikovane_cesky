@@ -134,4 +134,11 @@ export default {
 .isWrong {
   background-color: #e26d5c;
 }
+
+@media screen and (max-width: 600px) {
+  .btnresults,
+  .btnzkustoznova {
+    min-width: 150px;
+  }
+}
 </style>
