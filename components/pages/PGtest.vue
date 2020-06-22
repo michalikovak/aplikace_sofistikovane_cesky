@@ -140,7 +140,7 @@ export default {
 @media screen and (max-width: 600px) {
   .btnresults,
   .btnzkustoznova {
-    min-width: 120px;
+    min-width: 140px;
     font-size: 14px;
   }
 }
