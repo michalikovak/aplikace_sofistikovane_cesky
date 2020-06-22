@@ -64,7 +64,7 @@ export default [
       {
         questionStart: "Použijete-li",
         questionEnd: "software, získáte velmi kvalitní podklady.",
-        result: "sofistikovany",
+        result: "sofistikovaný",
       },
       {
         questionStart: "Jenom úplný",
